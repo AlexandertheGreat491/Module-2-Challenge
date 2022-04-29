@@ -1,0 +1,10 @@
+/*<header> & <nav> styling*/
+
+/*background-image style*/
+
+header {
+    background-image:url(images/sky.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
