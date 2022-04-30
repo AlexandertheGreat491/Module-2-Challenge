@@ -52,6 +52,16 @@ header nav ul li a {
   color: #1858cd;
 }
 
+.about img {
+  height: 200px;
+  position:relative;
+}
+
+.about p {
+  float: left;
+  position: relative;
+}
+
   .contact-me a {
 text-decoration: underline;
 color: coral;
