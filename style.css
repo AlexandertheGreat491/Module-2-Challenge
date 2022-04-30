@@ -41,4 +41,21 @@ header {
     font-size: 22px;
     position: relative;
   }
+
+  .contact-me a {
+text-decoration: underline;
+color: coral;
+  }
+
+  .contact-me nav ul li {
+    display: inline;
+    text-decoration: underline;
+  }
+
+  .contact-me nav ul li a {
+    margin: 0 30px;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+  }
   
