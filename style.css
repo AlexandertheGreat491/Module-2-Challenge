@@ -3,14 +3,19 @@
   padding: 0;
   margin: 0;
 }
+/*Body background-color and font-family*/
 
 body {
-  background-color: #d9dcd6;
+  background-color: #009933;
+  font-family: 'Montserrat', sans-serif;
 }
+
 /*<header> & <nav> styling*/
 
 /*background-image style*/
+.portfolio{
 
+}
 header {
   font-family: 'Montserrat', sans-serif;
   background-image:url(images/sky.jpg);
