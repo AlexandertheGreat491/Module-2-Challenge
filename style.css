@@ -30,10 +30,14 @@ header {
   background-color: #39a6b2;
   height: 500px;
   border: 10px groove #ffe6cc;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 header h1 {
-  display: inline-block;
+  display: flex;
+  font-weight: bold;
+  margin: 0;
   font-size: 48px;
   color: #cc2900;
 }
@@ -41,34 +45,30 @@ header h1 {
 header nav {
   padding-top: 15px;
   margin-right: 20px;
-  float: right;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
 }
 
 header nav ul {
-  list-style-type: none;
-}
-
-header nav ul li {
-  display: inline-block;
-}
-
-header li::after {
-  position: absolute;
-  content:"|";
+  display: flex;
+  text-align: right;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
 }
 
 header nav ul li a {
   font-weight: bold;
   display: inline-block;
-  margin-left: 25px;
+  font-weight: lighter;
+  font-size: 1.55vw;
   color: #1858cd;
+  justify-content: space-between;
 }
 /*header and nav styles end*/
 
 .portfolio {
-border: 20px groove #3366cc;
+border: 15px groove #3366cc;
 
 }
 
