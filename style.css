@@ -88,6 +88,11 @@ border: 20px groove #3366cc;
   margin: 10px 10px 10px 5px;
 }
 
+#placeholdertwo {
+  background-color:#00cccc;
+  margin: 10px 10px 10px 5px;
+}
+
 .portfolio h1{
   font-size: 40px;
   margin: 5px;
