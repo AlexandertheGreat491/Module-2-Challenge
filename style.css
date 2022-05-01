@@ -29,6 +29,7 @@ header {
   padding: 20px;
   background-color: #39a6b2;
   height: 500px;
+  border: 10px groove #ffe6cc;
 }
 
 header h1 {
@@ -51,8 +52,7 @@ header nav ul {
 
 header nav ul li {
   display: inline-block;
-  text-decoration: underline;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 header li::after {
