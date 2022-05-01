@@ -38,6 +38,7 @@ List your collaborators, if any, with links to their GitHub profiles.
 If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
 
 "Star Citizen" by Captain_Raoul is marked with CC BY-NC 2.0. (https://wordpress.org/openverse/image/009ed79e-a47f-4824-998e-d8eb9b220514)
+Stewart, Jessica. My Modern Met Over 17,500 Entries About Sci Fi Are Available on This Free Onlne Resource. (https://mymodernmet.com/encyclopedia-science-fiction/)
 
 If you followed tutorials, include links to those here as well.
 
