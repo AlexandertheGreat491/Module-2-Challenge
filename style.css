@@ -18,9 +18,9 @@ body {
 /*<header> & <nav> styling*/
 
 /*background-image style*/
-.portfolio{
 
-}
+
+
 header {
   font-family: 'Montserrat', sans-serif;
   background-image:url(images/sky.jpg);
@@ -61,12 +61,24 @@ header nav ul li a {
   margin-left: 25px;
   color: #1858cd;
 }
-.about h1 {
-  margin-bottom: 20px;
+/*header and nav styles end*/
+
+.portfolio h1{
   font-size: 36px;
+  margin: 5px;
+  }
+
+.bio {
+  float: right;
+  position: relative;
+  margin: 20px;
 }
+
+/*styling for images in "work"*/
+
 .handsome {
   height: 200px;
+  margin: 5px;
 }
 
 .screenshot{
@@ -77,10 +89,7 @@ header nav ul li a {
   height: 200px;
 }
 
-.bio {
-  float: right;
-  position: relative;
-}
+
 
 
   .contact-me a {
