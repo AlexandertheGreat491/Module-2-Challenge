@@ -64,36 +64,23 @@ header nav ul li a {
 /*header and nav styles end*/
 
 .portfolio h1{
-  font-size: 36px;
+  font-size: 40px;
   margin: 5px;
   text-decoration: underline;
   }
 
+  .portfolio h2{
+font-size: 25px;
+  }
+
+  .portfolio img{
+    height: 200px;
+    margin: 20px;
+  }
+  
   .about p {
     font-size: 18px;
   }
-
-.bio {
-  float: right;
-  position: relative;
-  margin: 20px;
-}
-
-/*styling for images in "work"*/
-
-.handsome {
-  height: 200px;
-  margin: 5px;
-}
-
-.screenshot{
-  height: 200px;
-}
-
-.run{
-  height: 200px;
-}
-
 
   .contact-me a {
 text-decoration: underline;
