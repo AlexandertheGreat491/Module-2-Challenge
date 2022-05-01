@@ -1,3 +1,8 @@
+:root {
+	--skintone-color: #DE9B72;
+	--dark-color: #3A3D3E;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -6,9 +11,12 @@
 /*Body background-color and font-family*/
 
 body {
-  background-color: #009933;
+  background-color: #b32d00;
   font-family: 'Montserrat', sans-serif;
+  margin: 10px;
+
 }
+
 
 /*<header> & <nav> styling*/
 
@@ -64,14 +72,20 @@ header nav ul li a {
   height: 200px;
 }
 
+.screenshot{
+  height: 200px;
+}
+
+.run{
+  height: 200px;
+}
+
 .bio {
   float: right;
   position: relative;
 }
 
-.screenshot{
-  height: 100px;
-}
+
   .contact-me a {
 text-decoration: underline;
 color: coral;
