@@ -113,8 +113,13 @@ text-decoration: underline;
     background-color: #003366;
   }
 
+  #marketing {
+    background-color: #00cccc;
+    margin: 10px 10px 10px 5px;
+  }
+
   figcaption {
-    color: #134d00;
+    color: #408000;
     font-weight: bold;
     font-size: 15px;
   }
