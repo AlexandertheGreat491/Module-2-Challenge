@@ -70,6 +70,22 @@ header nav ul li a {
 
 .portfolio {
 border: 20px groove #3366cc;
+
+}
+
+#marketing {
+  background-color:#00cccc;
+  margin: 10px 10px 10px 5px;
+}
+
+#buddy {
+  background-color:#00cccc;
+  margin: 10px 10px 10px 5px;
+}
+
+#placeholder {
+  background-color:#00cccc;
+  margin: 10px 10px 10px 5px;
 }
 
 .portfolio h1{
@@ -111,11 +127,6 @@ text-decoration: underline;
 
   .bio {
     background-color: #003366;
-  }
-
-  #marketing {
-    background-color: #00cccc;
-    margin: 10px 10px 10px 5px;
   }
 
   figcaption {
