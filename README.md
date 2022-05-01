@@ -37,10 +37,11 @@ List your collaborators, if any, with links to their GitHub profiles.
 
 If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
 
-"Star Citizen" by Captain_Raoul is marked with CC BY-NC 2.0. https://wordpress.org/openverse/image/009ed79e-a47f-4824-998e-d8eb9b220514
+"Star Citizen" by Captain_Raoul is marked with CC BY-NC 2.0. (https://wordpress.org/openverse/image/009ed79e-a47f-4824-998e-d8eb9b220514)
 
 If you followed tutorials, include links to those here as well.
 
+Stackoverflow. Adding a symbol after each element in CSS. (https://stackoverflow.com/questions/38833811/adding-a-symbol-after-each-element-in-css)
 ## License
 
 The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
