@@ -63,6 +63,10 @@ header nav ul li a {
 }
 /*header and nav styles end*/
 
+.portfolio {
+border: 20px groove #3366cc;
+}
+
 .portfolio h1{
   font-size: 40px;
   margin: 5px;
@@ -71,6 +75,7 @@ header nav ul li a {
 
   .portfolio h2{
 font-size: 25px;
+text-decoration: underline;
   }
 
   .portfolio img{
@@ -78,6 +83,22 @@ font-size: 25px;
     margin: 20px;
   }
   
+  .portfolio div{
+    margin: 10px;
+  }
+
+  #placeholder {
+    margin: 10px;
+  }
+
+  #placeholdertwo {
+    margin: 10px;
+  }
+
+  #placeholderthree {
+    margin: 10px;
+  }
+
   .about p {
     font-size: 18px;
   }
