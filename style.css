@@ -69,7 +69,6 @@ header nav ul li a {
 
 .portfolio {
 border: 15px groove #3366cc;
-
 }
 
 #marketing {
@@ -98,9 +97,9 @@ border: 15px groove #3366cc;
   text-decoration: underline;
   }
 
-  .portfolio h2{
-font-size: 25px;
-text-decoration: underline;
+.portfolio h2{
+  font-size: 25px;
+  text-decoration: underline;
   }
 
   .portfolio img{
@@ -144,28 +143,29 @@ text-decoration: underline;
   font-size: 15px;
 }
 
-  .contact-me a {
-color: coral;
+.contact-me a {
+  color: coral;
   }
 
-  .contact-me nav {
-    text-align: center;
-  }
-  .contact-me nav ul li {
-    display: inline;
-    text-align-last: center;
+.contact-me nav {
+  text-align: center;
   }
 
-  .contact-me nav ul li a {
-    margin: 0 30px;
-    font-weight: bold;
-    font-size: 20px;
-    position: relative;
+.contact-me nav ul li {
+  display: inline;
+  text-align-last: center;
   }
 
-  .contact-me li::after {
-    position: absolute;
-    content:"|";
+.contact-me nav ul li a {
+  margin: 0 30px;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  }
+
+.contact-me li::after {
+  position: absolute;
+  content:"|";
   }
 
   .contact-me h1 {
