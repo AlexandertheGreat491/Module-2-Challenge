@@ -1,7 +1,4 @@
-:root {
-	--skintone-color: #DE9B72;
-	--dark-color: #3A3D3E;
-}
+
 
 * {
   box-sizing: border-box;
@@ -13,8 +10,8 @@
 body {
   background-color: #b32d00;
   font-family: 'Montserrat', sans-serif;
-  margin: 10px;
-
+  margin: 5px;
+  border: 5px solid #008080;
 }
 
 
