@@ -66,6 +66,7 @@ header nav ul li a {
 .portfolio h1{
   font-size: 36px;
   margin: 5px;
+  text-decoration: underline;
   }
 
   .about p {
