@@ -248,7 +248,7 @@ figcaption {
   
   /* MEDIA QUERY FOR MOBILE, TABLET, AND DESKTOP */
 
-@media (min-width= 575px) and (max-width: 980px) {
+@media (min-width= 320px) and (max-width: 980px) {
   header {
     display: flex;
     justify-content: center;
