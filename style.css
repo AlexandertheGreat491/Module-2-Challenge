@@ -249,12 +249,38 @@ figcaption {
   /* MEDIA QUERY FOR MOBILE, TABLET, AND DESKTOP */
 
 @media (min-width: 320px) and (max-width: 980px) {
+  body {
+    margin: 4px;
+    border: 4px solid #008080;
+  }
+
   header {
     display: flex;
     justify-content: center;
     padding-bottom: 0;
     position: relative;
   }
+
+  header nav {
+    padding-top: 10px;
+    margin-right: 18px;
+    font-size: 18px;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    margin: 0 45px;
+    display: inline-block;
+    font-size: 1.50vw;
+    }
 
   .portfolio h1{
     font-size: 35px;
@@ -345,10 +371,9 @@ figcaption {
     .handsome {
         height: 200px;
         position: relative;
-        bottom: -20px;
         left: -100px;
-        margin: 15px 20px 5px 15px;
-        padding-top: 15px;
+        margin: 25px 20px 10px 15px;
+        padding-top: 5px;
       }
     
     .bio {
