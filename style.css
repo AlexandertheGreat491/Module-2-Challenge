@@ -248,7 +248,7 @@ figcaption {
   
   /* MEDIA QUERY FOR MOBILE, TABLET, AND DESKTOP */
 
-@media (min-width= 320px) and (max-width: 980px) {
+@media (min-width: 320px) and (max-width: 980px) {
   header {
     display: flex;
     justify-content: center;
@@ -257,26 +257,12 @@ figcaption {
   }
 
   .portfolio h1{
-    font-size: 42px;
+    font-size: 35px;
     margin: 5px;
-    text-decoration: underline;
-    font-family: 'Montserrat', sans-serif;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
 
-    .portfolio h1{
-      font-size: 40px;
-      margin: 5px;
-      text-decoration: underline;
-      font-family: 'Montserrat', sans-serif;
-      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-      }
-    
     .portfolio h2{
       font-size: 25px;
-      text-decoration: underline;
-      font-family: 'Montserrat', sans-serif;
-      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
       }
     
     .portfolio div{
@@ -287,44 +273,38 @@ figcaption {
       }
     
     figcaption {
-      color: #408000;
-      font-weight: bold;
-      font-size: 15px;
+      font-size: 10px;
       float: left;
       position: relative;
-      bottom:-200px;
+      bottom:-100px;
     }
     
     #marketing {
-      background-color:#00cccc;
-      margin: 10px 10px 10px 5px;
-      width: 80%;
+      margin: 9px 9px 9px 5px;
+      width: 70%;
       display: flex;
       position: relative;
       right: -100px;
     }
     
     #buddy {
-      background-color:#00cccc;
-      margin: 10px 10px 10px 5px;
-      width: 80%;
+      margin: 9px 9px 9px 5px;
+      width: 70%;
       display: flex;
       position: relative;
-      right: -223px;
+      right: -200px;
     }
     
     #placeholder {
-      background-color:#00cccc;
-      margin: 10px 10px 10px 5px;
-      width: 80%;
+      margin: 9px 9px 9px 5px;
+      width: 70%;
       display: flex;
       position: relative;
       right: -220px;
     }
     
     #placeholdertwo {
-      background-color:#00cccc;
-      margin: 10px 10px 10px 5px;
+      margin: 9px 9px 9px 5px;
       width: 80%;
       display: flex;
       position: relative;
@@ -332,49 +312,43 @@ figcaption {
     }
     
     .screenshot {
-      height: 200px;
-      margin: 20px;
+      height: 150px;
+      margin: 15px;
       position: relative;
-      cursor: pointer;
     }
     
     .run {
-      height: 200px;
-      margin: 20px;
+      height: 150px;
+      margin: 15px;
       position: relative;
       right: -70px;
-      cursor: pointer;
     }
     
     .box {
-      height: 200px;
-      margin: 20px;
+      height: 150px;
+      margin: 15px;
       position: relative;
-      cursor: pointer;
     }
     
     .space {
-      height: 200px;
-      margin: 20px;
+      height: 150px;
+      margin: 15px;
      position: relative;
-     right: -390px;
-     cursor: pointer;
+     right: -200px;
     }
     
-      .about p {
-        font-size: 18px;
-        color:#b32d00;
-        font-family: 'Roboto Mono', monospace; 
-        position: relative;
+    .about p {
+      font-size: 15px;
+      position: relative;
       }
     
     .handsome {
-        height: 220px;
+        height: 200px;
         position: relative;
-        bottom: -30px;
-        left: -200px;
-        margin: 20px 30px 5px 20px;
-        padding-top: 20px;
+        bottom: -20px;
+        left: -100px;
+        margin: 15px 20px 5px 15px;
+        padding-top: 15px;
       }
     
     .bio {
@@ -382,19 +356,14 @@ figcaption {
         display: flex;
         text-align: left;
         flex-wrap: wrap;
-        width: 65%;
-        line-height: 1.5;
-      }
-    
-    .contact-me a {
-      color: coral;
+        width: 50%;
+        line-height: 1.3;
       }
     
     .contact-me nav {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      font-family: 'Montserrat', sans-serif;
       position: relative;
       right: -75px;
       top: 20px;
@@ -403,7 +372,6 @@ figcaption {
     .contact-me nav ul li {
       display: inline;
       text-align-last: center;
-      font-family: 'Montserrat', sans-serif;
       }
     
     .contact-me nav ul li a {
@@ -411,19 +379,12 @@ figcaption {
       font-weight: bold;
       font-size: 20px;
       position: relative;
-      cursor: pointer;
-      }
-    
-    .contact-me li::after {
-      position: absolute;
-      content:"|";
       }
     
       .contact-me h1 {
-        font-size: 35px;
+        font-size: 30px;
         font-weight: bold;
-        margin: 5px;
-        font-family: 'Montserrat', sans-serif;
+        margin: 4px;
       }
 
 }
