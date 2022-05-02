@@ -67,6 +67,7 @@ header nav ul li a {
   color: #1858cd;
   justify-content: space-between;
   font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
 }
 /*header and nav styles end*/
 
@@ -150,6 +151,7 @@ figcaption {
   height: 200px;
   margin: 20px;
   position: relative;
+  cursor: pointer;
 }
 
 .run {
@@ -157,12 +159,14 @@ figcaption {
   margin: 20px;
   position: relative;
   right: -70px;
+  cursor: pointer;
 }
 
 .box {
   height: 200px;
   margin: 20px;
   position: relative;
+  cursor: pointer;
 }
 
 .space {
@@ -170,9 +174,8 @@ figcaption {
   margin: 20px;
  position: relative;
  right: -390px;
+ cursor: pointer;
 }
-
-
 
   .about p {
     font-size: 18px;
@@ -181,7 +184,7 @@ figcaption {
     position: relative;
   }
 
-  .handsome {
+.handsome {
     height: 220px;
     position: relative;
     bottom: -30px;
@@ -190,7 +193,7 @@ figcaption {
     padding-top: 20px;
   }
 
-  .bio {
+.bio {
     background-color: #003366;
     display: flex;
     text-align: left;
@@ -199,22 +202,18 @@ figcaption {
     line-height: 1.5;
   }
 
-  
-
-  
-
-#repository {
-  color: #134d00;
-  font-size: 15px;
-}
-
 .contact-me a {
   color: coral;
   }
 
 .contact-me nav {
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   font-family: 'Montserrat', sans-serif;
+  position: relative;
+  right: -75px;
+  top: 20px;
   }
 
 .contact-me nav ul li {
@@ -228,6 +227,7 @@ figcaption {
   font-weight: bold;
   font-size: 20px;
   position: relative;
+  cursor: pointer;
   }
 
 .contact-me li::after {
