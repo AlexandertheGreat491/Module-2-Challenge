@@ -73,6 +73,7 @@ header nav ul li a {
 p, figcaption, #deployed, #respository {
   font-family: 'Roboto Mono', monospace;
 }
+
 .portfolio {
 display: flex;
 justify-content: start;
@@ -80,24 +81,75 @@ flex-wrap: wrap;
 border: 20px groove #3366cc;
 }
 
+figcaption {
+  color: #408000;
+  font-weight: bold;
+  font-size: 15px;
+  float: left;
+  position: relative;
+  bottom:-200px;
+}
+
 #marketing {
   background-color:#00cccc;
   margin: 10px 10px 10px 5px;
+  width: 80%;
+  display: flex;
+  position: relative;
+  right: -100px;
 }
 
 #buddy {
   background-color:#00cccc;
   margin: 10px 10px 10px 5px;
+  width: 80%;
+  display: flex;
+  position: relative;
+  right: -223px;
 }
 
 #placeholder {
   background-color:#00cccc;
   margin: 10px 10px 10px 5px;
+  width: 80%;
+  display: flex;
+  position: relative;
+  right: -220px;
 }
 
 #placeholdertwo {
   background-color:#00cccc;
   margin: 10px 10px 10px 5px;
+  width: 80%;
+  display: flex;
+  position: relative;
+  right: -220px;
+}
+
+.screenshot {
+  height: 200px;
+  margin: 20px;
+  position: relative;
+}
+
+.run {
+  height: 200px;
+  margin: 20px;
+  position: relative;
+  right: -70px;
+}
+
+.box {
+  height: 200px;
+  margin: 20px;
+  position: relative;
+}
+
+.space {
+  height: 200px;
+  margin: 20px;
+ position: relative;
+ right: -350px;
 }
 
 .portfolio h1{
@@ -113,11 +165,6 @@ border: 20px groove #3366cc;
   font-family: 'Montserrat', sans-serif;
   }
 
-  .portfolio img{
-    height: 200px;
-    margin: 20px;
-  }
-  
   .portfolio div{
     margin: 10px;
     display: flex;
@@ -125,22 +172,22 @@ border: 20px groove #3366cc;
     align-items: left;
   }
 
-  #placeholder {
-    margin: 10px;
-  }
-
-  #placeholdertwo {
-    margin: 10px;
-  }
-
-  #placeholderthree {
-    margin: 10px;
-  }
+  
 
   .about p {
     font-size: 18px;
     color:#b32d00;
     font-family: 'Roboto Mono', monospace; 
+    position: relative;
+  }
+
+  .handsome {
+    height: 220px;
+    position: relative;
+    bottom: -30px;
+    left: -200px;
+    margin: 20px 30px 5px 20px;
+    padding-top: 20px;
   }
 
   .bio {
@@ -148,15 +195,13 @@ border: 20px groove #3366cc;
     display: flex;
     text-align: left;
     flex-wrap: wrap;
-    width: 50%;
+    width: 65%;
     line-height: 1.5;
   }
 
-  figcaption {
-    color: #408000;
-    font-weight: bold;
-    font-size: 15px;
-  }
+  
+
+  
 
 #repository {
   color: #134d00;
