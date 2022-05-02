@@ -13,19 +13,14 @@ body {
   border: 5px solid #008080;
 }
 
-
 /*<header> & <nav> styling*/
 
 /*background-image style*/
 
-
-
 header {
-  font-family: 'Montserrat', sans-serif;
   background-image:url(images/sky.jpg);
   display: flex;
   background-size: cover;
-  position: sticky;
   position: -webkit-sticky;
   padding: 20px;
   background-color: #39a6b2;
@@ -109,8 +104,6 @@ align-items: flex-start;
   display: flex;
   flex-wrap: wrap;
   align-items: left;
-  flex-grow: 1;
-  flex-shrink: 1;
   }
 
 figcaption {
@@ -254,34 +247,183 @@ figcaption {
   }
   
   /* MEDIA QUERY FOR MOBILE, TABLET, AND DESKTOP */
-@media screen and (min-width: 575px) and (max-width: 980px) {
+
+@media (min-width= 575px) and (max-width: 980px) {
   header {
-    padding-bottom: 0;
+    display: flex;
     justify-content: center;
+    padding-bottom: 0;
     position: relative;
   }
 
-  header h1 {
-    width: 100%;
-    text-align: center;
-  }
+  .portfolio h1{
+    font-size: 42px;
+    margin: 5px;
+    text-decoration: underline;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
 
-  header nav ul {
-    margin-top: 20px;
-    width: 100%;
-    justify-content: center;
-  }
-
-  .header nav ul li a {
-font-size: 20px;
-  }
-
-  .portfolio, .portfolio div {
-    width: 100%;
-    flex: 1 100%;
-    flex-grow: 1;
-    flex-shrink: 1;
-  }
+    .portfolio h1{
+      font-size: 40px;
+      margin: 5px;
+      text-decoration: underline;
+      font-family: 'Montserrat', sans-serif;
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      }
+    
+    .portfolio h2{
+      font-size: 25px;
+      text-decoration: underline;
+      font-family: 'Montserrat', sans-serif;
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      }
+    
+    .portfolio div{
+      margin: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: left;
+      }
+    
+    figcaption {
+      color: #408000;
+      font-weight: bold;
+      font-size: 15px;
+      float: left;
+      position: relative;
+      bottom:-200px;
+    }
+    
+    #marketing {
+      background-color:#00cccc;
+      margin: 10px 10px 10px 5px;
+      width: 80%;
+      display: flex;
+      position: relative;
+      right: -100px;
+    }
+    
+    #buddy {
+      background-color:#00cccc;
+      margin: 10px 10px 10px 5px;
+      width: 80%;
+      display: flex;
+      position: relative;
+      right: -223px;
+    }
+    
+    #placeholder {
+      background-color:#00cccc;
+      margin: 10px 10px 10px 5px;
+      width: 80%;
+      display: flex;
+      position: relative;
+      right: -220px;
+    }
+    
+    #placeholdertwo {
+      background-color:#00cccc;
+      margin: 10px 10px 10px 5px;
+      width: 80%;
+      display: flex;
+      position: relative;
+      right: -220px;
+    }
+    
+    .screenshot {
+      height: 200px;
+      margin: 20px;
+      position: relative;
+      cursor: pointer;
+    }
+    
+    .run {
+      height: 200px;
+      margin: 20px;
+      position: relative;
+      right: -70px;
+      cursor: pointer;
+    }
+    
+    .box {
+      height: 200px;
+      margin: 20px;
+      position: relative;
+      cursor: pointer;
+    }
+    
+    .space {
+      height: 200px;
+      margin: 20px;
+     position: relative;
+     right: -390px;
+     cursor: pointer;
+    }
+    
+      .about p {
+        font-size: 18px;
+        color:#b32d00;
+        font-family: 'Roboto Mono', monospace; 
+        position: relative;
+      }
+    
+    .handsome {
+        height: 220px;
+        position: relative;
+        bottom: -30px;
+        left: -200px;
+        margin: 20px 30px 5px 20px;
+        padding-top: 20px;
+      }
+    
+    .bio {
+        background-color: #003366;
+        display: flex;
+        text-align: left;
+        flex-wrap: wrap;
+        width: 65%;
+        line-height: 1.5;
+      }
+    
+    .contact-me a {
+      color: coral;
+      }
+    
+    .contact-me nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      font-family: 'Montserrat', sans-serif;
+      position: relative;
+      right: -75px;
+      top: 20px;
+      }
+    
+    .contact-me nav ul li {
+      display: inline;
+      text-align-last: center;
+      font-family: 'Montserrat', sans-serif;
+      }
+    
+    .contact-me nav ul li a {
+      margin: 0 30px;
+      font-weight: bold;
+      font-size: 20px;
+      position: relative;
+      cursor: pointer;
+      }
+    
+    .contact-me li::after {
+      position: absolute;
+      content:"|";
+      }
+    
+      .contact-me h1 {
+        font-size: 35px;
+        font-weight: bold;
+        margin: 5px;
+        font-family: 'Montserrat', sans-serif;
+      }
 
 }
-
