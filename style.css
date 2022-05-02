@@ -253,8 +253,8 @@ figcaption {
     font-family: 'Montserrat', sans-serif;
   }
   
-  /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-@media screen and (max-width: 980px) {
+  /* MEDIA QUERY FOR MOBILE, TABLET, AND DESKTOP */
+@media screen and (min-width: 575px) and (max-width: 980px) {
   header {
     padding-bottom: 0;
     justify-content: center;
@@ -285,68 +285,3 @@ font-size: 20px;
 
 }
 
-/* MEDIA QUERY FOR TABLETS AND SMALLER */
-@media screen and (max-width: 768px) {
-  header {
-    padding-bottom: 0;
-    justify-content: center;
-    position: relative;
-  }
-
-  header h1 {
-    width: 100%;
-    text-align: center;
-  }
-
-  header nav ul {
-    margin-top: 20px;
-    width: 100%;
-    justify-content: center;
-  }
-
-  .header nav ul li a {
-font-size: 20px;
-  }
-
-  .portfolio, .portfolio div {
-    width: 100%;
-    flex: 1 100%;
-    flex-grow: 1;
-    flex-shrink: 1;
-  }
-
-  
-}
-
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-@media screen and (max-width: 575px) {
- 
-  header {
-    padding-bottom: 0;
-    justify-content: center;
-    position: relative;
-  }
-
-  header h1 {
-    width: 100%;
-    text-align: center;
-  }
-
-  header nav ul {
-    margin-top: 20px;
-    width: 100%;
-    justify-content: center;
-  }
-
-  .header nav ul li a {
-font-size: 20px;
-  }
-
-  .portfolio, .portfolio div {
-    width: 100%;
-    flex: 1 100%;
-    flex-grow: 1;
-    flex-shrink: 1;
-  }
-  
-}
