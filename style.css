@@ -81,6 +81,26 @@ flex-wrap: wrap;
 border: 20px groove #3366cc;
 }
 
+.portfolio h1{
+  font-size: 40px;
+  margin: 5px;
+  text-decoration: underline;
+  font-family: 'Montserrat', sans-serif;
+  }
+
+.portfolio h2{
+  font-size: 25px;
+  text-decoration: underline;
+  font-family: 'Montserrat', sans-serif;
+  }
+
+  .portfolio div{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+  }
+
 figcaption {
   color: #408000;
   font-weight: bold;
@@ -152,27 +172,7 @@ figcaption {
  right: -390px;
 }
 
-.portfolio h1{
-  font-size: 40px;
-  margin: 5px;
-  text-decoration: underline;
-  font-family: 'Montserrat', sans-serif;
-  }
 
-.portfolio h2{
-  font-size: 25px;
-  text-decoration: underline;
-  font-family: 'Montserrat', sans-serif;
-  }
-
-  .portfolio div{
-    margin: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: left;
-  }
-
-  
 
   .about p {
     font-size: 18px;
