@@ -82,6 +82,9 @@ justify-content: start;
 flex-wrap: wrap;
 border: 20px groove #3366cc;
 align-items: flex-start;
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 0;
 }
 
 .portfolio h1{
