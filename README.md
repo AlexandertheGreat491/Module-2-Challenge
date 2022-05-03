@@ -37,17 +37,11 @@ The project can be used through accessing the deployed URL and/or through access
 
 List your collaborators, if any, with links to their GitHub profiles.
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+Tutorials used:
 
-Stackoverflow. 2017. "What does flex: 1 mean?" (https://stackoverflow.com/questions/37386244/what-does-flex-1-mean)
+W3Schools. (2022). CSS Tutorial. W3Schools. (https://www.w3schools.com/css/default.asp)
 
-"Star Citizen" by Captain_Raoul is marked with CC BY-NC 2.0. (https://wordpress.org/openverse/image/009ed79e-a47f-4824-998e-d8eb9b220514)
-
-Stewart, Jessica. My Modern Met Over 17,500 Entries About Sci Fi Are Available on This Free Onlne Resource. (https://mymodernmet.com/encyclopedia-science-fiction/)
-
-If you followed tutorials, include links to those here as well.
-
-Stackoverflow. Adding a symbol after each element in CSS. (https://stackoverflow.com/questions/38833811/adding-a-symbol-after-each-element-in-css)
+W3Schools. (2022). HTML Tutorial. W3Schools. (https://www.w3schools.com/html/default.asp)
 ## License
 
 The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
