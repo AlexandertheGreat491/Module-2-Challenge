@@ -37,7 +37,7 @@ The project can be used through accessing the deployed URL and/or through access
 
 Collaborators:
 
-Alexander Van Dyke
+[Alexander Van Dyke] (https://github.com/AlexandertheGreat491/Portfolio)
 
 Tutorials used:
 
