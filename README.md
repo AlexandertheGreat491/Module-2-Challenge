@@ -21,28 +21,29 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
+To have access to this repository clone this project to your local machine.
+
 ## Usage
 
 Provide instructions and examples for use. Include screenshots as needed.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+The project can be used through accessing the deployed URL and/or through accessing the public GitHub repository for this project.
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+[Deployed URL](https://alexanderthegreat491.github.io/Portfolio/)
+
+[public repository URL](https://github.com/AlexandertheGreat491/Portfolio)
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+Collaborators:
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+[Alexander Van Dyke] (https://github.com/AlexandertheGreat491/Portfolio)
 
-"Star Citizen" by Captain_Raoul is marked with CC BY-NC 2.0. (https://wordpress.org/openverse/image/009ed79e-a47f-4824-998e-d8eb9b220514)
-Stewart, Jessica. My Modern Met Over 17,500 Entries About Sci Fi Are Available on This Free Onlne Resource. (https://mymodernmet.com/encyclopedia-science-fiction/)
+Tutorials used:
 
-If you followed tutorials, include links to those here as well.
+W3Schools. (2022). CSS Tutorial. W3Schools. (https://www.w3schools.com/css/default.asp)
 
-Stackoverflow. Adding a symbol after each element in CSS. (https://stackoverflow.com/questions/38833811/adding-a-symbol-after-each-element-in-css)
+W3Schools. (2022). HTML Tutorial. W3Schools. (https://www.w3schools.com/html/default.asp)
 ## License
 
 The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
