@@ -35,7 +35,9 @@ The project can be used through accessing the deployed URL and/or through access
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+Collaborators:
+
+Alexander Van Dyke
 
 Tutorials used:
 
