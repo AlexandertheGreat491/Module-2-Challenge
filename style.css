@@ -131,7 +131,6 @@ figcaption {
   height: 40%;
   display: flex;
   position: relative;
-  right: -100px;
 }
 
 #buddy {
@@ -140,7 +139,6 @@ figcaption {
   width: 70%;
   display: flex;
   position: relative;
-  right: -223px;
 }
 
 #placeholder {
