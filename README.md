@@ -29,7 +29,7 @@ Provide instructions and examples for use. Include screenshots as needed.
 
 The project can be used through accessing the deployed URL and/or through accessing the public GitHub repository for this project.
 
-Deployed URL
+[Deployed URL](https://alexanderthegreat491.github.io/Portfolio/)
 
 public repository URL
 
