@@ -31,7 +31,7 @@ The project can be used through accessing the deployed URL and/or through access
 
 [Deployed URL](https://alexanderthegreat491.github.io/Portfolio/)
 
-public repository URL
+[public repository URL](https://github.com/AlexandertheGreat491/Portfolio)
 
 ## Credits
 
