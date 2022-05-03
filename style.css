@@ -299,8 +299,7 @@ figcaption {
       }
     
     figcaption {
-      font-size: 10px;
-      float: left;
+      font-size: 5px;
       position: relative;
       bottom:-100px;
     }
@@ -341,22 +340,22 @@ figcaption {
       height: 150px;
       margin: 10px;
       position: relative;
-      right: -280px;
+      right: -130px;
     }
     
     .run {
       height: 150px;
       margin: 10px;
       position: relative;
-      right: -280px;
+      right: -150px;
     }
     
     .box {
       height: 150px;
-      margin: 15px;
+      margin: 10px;
       position: relative;
-      right: -150px;
-      left: 43px;
+      right: -60px;
+      top: 10px;
     }
     
     .space {
