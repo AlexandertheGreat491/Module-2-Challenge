@@ -82,9 +82,7 @@ justify-content: start;
 flex-wrap: wrap;
 border: 20px groove #3366cc;
 align-items: flex-start;
-flex-grow: 1;
-flex-shrink: 1;
-flex-basis: 0;
+flex-grow: 1 1 0;
 }
 
 .portfolio h1{
@@ -111,7 +109,6 @@ flex-basis: 0;
   background-color:#00cccc;
   margin: 10px 10px 10px 5px;
   width: 90%;
-  height: 40%;
   display: flex;
   position: relative;
 }
@@ -125,10 +122,13 @@ flex-basis: 0;
 
 #buddy {
   background-color:#00cccc;
-  margin: 10px 10px 10px 5px;
+  margin: 5px 10px 10px 5px;
   width: 40%;
   display: flex;
   position: relative;
+  right: -70px;
+  flex-wrap: wrap;
+
 }
 
 #buddy h2 {
@@ -140,11 +140,11 @@ flex-basis: 0;
 
 #placeholder {
   background-color:#00cccc;
-  margin: 10px 10px 10px 5px;
-  width: 80%;
+  margin: 5px 10px 10px 5px;
+  width: 40%;
   display: flex;
   position: relative;
-  right: -220px;
+  right: -75px;
 }
 
 #placeholder h2 {
@@ -156,11 +156,11 @@ flex-basis: 0;
 
 #placeholdertwo {
   background-color:#00cccc;
-  margin: 10px 10px 10px 5px;
+  margin: 5px 10px 10px 5px;
   width: 80%;
   display: flex;
   position: relative;
-  right: -220px;
+  right: -150px;
 }
 
 #placeholdertwo h2 {
@@ -171,22 +171,21 @@ flex-basis: 0;
 }
 
 .screenshot {
-  height: 200px;
+  height: 500px;
   margin: 10px;
   position: relative;
   cursor: pointer;
 }
 
 .run {
-  height: 100px;
+  height: 200px;
   margin: 10px;
   position: relative;
-  
   cursor: pointer;
 }
 
 .box {
-  height: 200px;
+  height: 300px;
   margin: 20px;
   position: relative;
   cursor: pointer;
@@ -196,7 +195,7 @@ flex-basis: 0;
   height: 200px;
   margin: 20px;
   position: relative;
-  right: -390px;
+  right: -30px;
   cursor: pointer;
 }
 
@@ -347,15 +346,15 @@ flex-basis: 0;
     
     #placeholder {
       margin: 9px 9px 9px 5px;
-      width: 70%;
+      width: 40%;
       display: flex;
       position: relative;
-      right: -200px;
+      right: -100px;
     }
     
     #placeholdertwo {
       margin: 9px 9px 9px 5px;
-      width: 70%;
+      width: 40%;
       display: flex;
       position: relative;
       right: -200px;
@@ -369,10 +368,11 @@ flex-basis: 0;
     }
     
     .run {
-      height: 150px;
+      height: 140px;
       margin: 10px;
       position: relative;
-      right: -127px;
+      right: -120px;
+      bottom: -30px;
     }
     
     .box {
