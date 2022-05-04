@@ -79,7 +79,7 @@ p, figcaption, #deployed, #respository {
 .portfolio {
 display: flex;
 justify-content: start;
-flex-wrap: wrap;
+flex-wrap: nowrap;
 border: 20px groove #3366cc;
 align-items: flex-start;
 flex-grow: 1 1 0;
@@ -103,6 +103,7 @@ flex-grow: 1 1 0;
   display: flex;
   flex-wrap: wrap;
   align-items: left;
+  flex-direction: row;
   }
 
 #marketing {
@@ -128,7 +129,7 @@ flex-grow: 1 1 0;
   width: 40%;
   display: flex;
   position: relative;
-  right: -100px;
+  right: -200px;
   flex-wrap: nowrap;
 
 }
@@ -164,7 +165,8 @@ flex-grow: 1 1 0;
   width: 50%;
   display: flex;
   position: relative;
-  right: -474px;
+  right: -550px;
+  flex-wrap: nowrap;
 }
 
 #placeholdertwo h2 {
