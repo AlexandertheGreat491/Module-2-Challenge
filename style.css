@@ -111,6 +111,8 @@ flex-grow: 1 1 0;
   width: 90%;
   display: flex;
   position: relative;
+  flex-wrap: wrap;
+  right: -100px;
 }
 
 #marketing h2 {
