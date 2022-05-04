@@ -438,7 +438,7 @@ flex-grow: 1 1 0;
      right: -135px;
     }
     
-    .about p {
+    #About-Me p {
       font-size: 15px;
       position: relative;
       }
@@ -460,11 +460,11 @@ flex-grow: 1 1 0;
         line-height: 1.3;
       }
     
-      .contact-me {
+      #Contact-Me {
         height: 80px;
       }
 
-    .contact-me nav {
+    #Contact-Me nav {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -473,19 +473,19 @@ flex-grow: 1 1 0;
       top: 13px;
       }
     
-    .contact-me nav ul li {
+    #Contact-Me nav ul li {
       display: inline;
       text-align-last: center;
       }
     
-    .contact-me nav ul li a {
+    #Contact-Me nav ul li a {
       margin: 0 20px;
       font-weight: bold;
       font-size: 20px;
       position: relative;
       }
     
-      .contact-me h1 {
+      #Contact-Me h1 {
         font-size: 45px;
         font-weight: bold;
         margin: 4px;
