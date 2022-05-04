@@ -100,29 +100,12 @@ flex-basis: 0;
     content:"|";
   }
 
-.portfolio h2{
-  font-size: 25px;
-  text-decoration: underline;
-  font-family: 'Montserrat', sans-serif;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
-
 .portfolio div{
   margin: 10px;
   display: flex;
   flex-wrap: wrap;
   align-items: left;
   }
-
-figcaption {
-  color: #408000;
-  font-weight: bold;
-  font-size: 20px;
-  float: left;
-  width: 300px;
-  position: relative;
-  bottom:-100px;
-}
 
 #marketing {
   background-color:#00cccc;
@@ -133,12 +116,26 @@ figcaption {
   position: relative;
 }
 
+#marketing h2 {
+  font-size: 30px;
+  text-decoration: underline;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 #buddy {
   background-color:#00cccc;
   margin: 10px 10px 10px 5px;
-  width: 70%;
+  width: 40%;
   display: flex;
   position: relative;
+}
+
+#buddy h2 {
+  font-size: 20px;
+  text-decoration: underline;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 #placeholder {
@@ -150,6 +147,13 @@ figcaption {
   right: -220px;
 }
 
+#placeholder h2 {
+  font-size: 20px;
+  text-decoration: underline;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 #placeholdertwo {
   background-color:#00cccc;
   margin: 10px 10px 10px 5px;
@@ -159,18 +163,25 @@ figcaption {
   right: -220px;
 }
 
+#placeholdertwo h2 {
+  font-size: 20px;
+  text-decoration: underline;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 .screenshot {
   height: 200px;
-  margin: 20px;
+  margin: 10px;
   position: relative;
   cursor: pointer;
 }
 
 .run {
-  height: 200px;
-  margin: 20px;
+  height: 100px;
+  margin: 10px;
   position: relative;
-  right: -70px;
+  
   cursor: pointer;
 }
 
@@ -317,14 +328,6 @@ figcaption {
       flex-wrap: wrap;
       align-items: left;
       }
-
-    figcaption {
-      font-size: 10px;
-      width: 200px;
-      float: left;
-      position: relative;
-      bottom: -100px;
-    }
     
     #marketing {
       margin: 9px 9px 9px 5px;
