@@ -21,8 +21,12 @@ header {
   background-image:url(images/sky.jpg);
   display: flex;
   background-size: cover;
+background-attachment: fixed;
+background-position: 80%;
   position: -webkit-sticky;
-  padding: 20px;
+  position: sticky;
+  top:0;
+  padding: 20px 35px;
   background-color: #39a6b2;
   height: 400px;
   border: 10px groove #ffe6cc;
@@ -32,11 +36,9 @@ header {
 }
 
 header h1 {
-  display: flex;
   font-weight: bold;
   margin: 0;
   font-size: 48px;
-  color: #cc2900;
   font-family: 'Montserrat', sans-serif;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -55,7 +57,6 @@ header nav ul {
   list-style: none;
   font-family: 'Montserrat', sans-serif;
   align-items: center;
-  list-style: none;
 }
 
 header nav ul li a {
@@ -64,11 +65,16 @@ header nav ul li a {
   display: inline-block;
   font-weight: lighter;
   font-size: 1.55vw;
-  color: #1858cd;
+  color: #cc2900;
   justify-content: space-between;
   font-family: 'Montserrat', sans-serif;
   cursor: pointer;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul li a:hover {
+  border-radius: 15px;
+  text-shadow: none;
 }
 /*header and nav styles end*/
 
