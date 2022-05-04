@@ -336,8 +336,7 @@ flex-grow: 1 1 0;
 
   header {
     display: flex;
-    height: 450px;
-    justify-content: center;
+    height: 500px;
     padding-bottom: 0;
     position: relative;
   }
@@ -346,11 +345,8 @@ flex-grow: 1 1 0;
     display: flex;
     font-weight: bold;
     margin: 0;
-    font-size: 48px;
-    color: #cc2900;
-    font-family: 'Montserrat', sans-serif;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    margin-right: 25px;
+    font-size: 35px;
+    margin-right: 10px;
   }
 
   header nav {
@@ -364,14 +360,23 @@ flex-grow: 1 1 0;
     flex-wrap: wrap;
     justify-content: space-between;
     list-style: none;
-    align-items: center;
-    list-style: none;
   }
   
   header nav ul li a {
-    margin: 0 45px;
+    margin: 0 30px;
     display: inline-block;
-    font-size: 1.50vw;
+    font-size: 1.40vw;
+    }
+
+    header nav ul li a:hover {
+      border-radius: 15px;
+      text-shadow: none;
+    }
+    
+    .buttontwo {
+      font: bold 15px 'Montserrat';
+      padding: 2px 6px 2px 6px;
+      border-radius: 5px;
     }
 
   .portfolio h1{
@@ -400,10 +405,10 @@ flex-grow: 1 1 0;
     
     #buddy {
       margin: 9px 9px 9px 5px;
-      width: 70%;
+      width: 30%;
       display: flex;
       position: relative;
-      right: -200px;
+      right: -10px;
     }
     
     #placeholder {
@@ -411,30 +416,31 @@ flex-grow: 1 1 0;
       width: 40%;
       display: flex;
       position: relative;
-      right: -100px;
+      right: -200px;
     }
     
     #placeholdertwo {
       margin: 9px 9px 9px 5px;
-      width: 40%;
+      width: 50%;
       display: flex;
       position: relative;
-      right: -200px;
+      right: -395px;
     }
     
     .screenshot {
-      height: 150px;
-      margin: 10px;
+      height: 400px;
+      width: 350px;
+      margin: 5px;
       position: relative;
-      right: -130px;
     }
     
     .run {
       height: 140px;
+      width: 150px;
       margin: 10px;
       position: relative;
-      right: -120px;
-      bottom: -30px;
+      right: -100px;
+      bottom: -5px;
     }
     
     .box {
@@ -443,14 +449,15 @@ flex-grow: 1 1 0;
       width: 288px;
       position: relative;
       right: -110px;
-      top: 10px;
+      top: -2px;
     }
     
     .space {
       height: 150px;
+      width: 150px;
       margin: 15px;
-     position: relative;
-     right: -135px;
+      position: relative;
+      right: -135px;
     }
     
     #About-Me p {
@@ -459,7 +466,7 @@ flex-grow: 1 1 0;
       }
     
     .handsome {
-        height: 200px;
+        height: 300px;
         position: relative;
         left: -100px;
         margin: 25px 20px 10px 15px;
@@ -484,8 +491,7 @@ flex-grow: 1 1 0;
       flex-wrap: wrap;
       justify-content: center;
       position: relative;
-      right: -75px;
-      top: 13px;
+      right: -80px;
       }
     
     #Contact-Me nav ul li {
@@ -504,6 +510,24 @@ flex-grow: 1 1 0;
         font-size: 45px;
         font-weight: bold;
         margin: 4px;
+      }
+
+      #Resume h1 {
+        font-size: 20px;
+        text-decoration: underline;
+        font-family: 'Montserrat', sans-serif;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      }
+      #Resume{
+        display: flex;
+        flex-wrap: wrap;
+      }
+    
+      #snapshot {
+        height: 300px;
+        width: 80%;
+        right: -150px;
+        position: relative;
       }
 
 }
