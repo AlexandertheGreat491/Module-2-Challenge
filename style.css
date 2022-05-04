@@ -146,7 +146,7 @@ flex-grow: 1 1 0;
   width: 40%;
   display: flex;
   position: relative;
-  right: -75px;
+  right: -215px;
 }
 
 #placeholder h2 {
@@ -159,10 +159,10 @@ flex-grow: 1 1 0;
 #placeholdertwo {
   background-color:#00cccc;
   margin: 5px 10px 10px 5px;
-  width: 80%;
+  width: 50%;
   display: flex;
   position: relative;
-  right: -150px;
+  right: -474px;
 }
 
 #placeholdertwo h2 {
@@ -187,7 +187,7 @@ flex-grow: 1 1 0;
 }
 
 .box {
-  height: 300px;
+  height: 200px;
   margin: 20px;
   position: relative;
   cursor: pointer;
