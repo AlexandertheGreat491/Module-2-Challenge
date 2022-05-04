@@ -24,7 +24,7 @@ header {
 background-attachment: fixed;
 background-position: 80%;
   position: -webkit-sticky;
-  position: sticky;
+  position: relative;
   top:0;
   padding: 20px 35px;
   background-color: #39a6b2;
@@ -36,6 +36,7 @@ background-position: 80%;
 }
 
 header h1 {
+  color: #cc2900;
   font-weight: bold;
   margin: 0;
   font-size: 48px;
@@ -216,7 +217,7 @@ flex-grow: 1 1 0;
   cursor: pointer;
 }
 
-.about p {
+#About-Me p {
  font-size: 18px;
  color:#b32d00;
  font-family: 'Roboto Mono', monospace; 
@@ -245,7 +246,7 @@ flex-grow: 1 1 0;
   color: #ff7f50;
   }
 
-.contact-me nav {
+#Contact-Me nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: right;
@@ -255,13 +256,13 @@ flex-grow: 1 1 0;
   top: 30px;
   }
 
-.contact-me nav ul li {
+#Contact-Me nav ul li {
   display: inline;
   text-align-last: right;
   font-family: 'Montserrat', sans-serif;
   }
 
-.contact-me nav ul li a {
+#Contact-Me nav ul li a {
   margin: 0 30px;
   font-weight: bold;
   font-size: 20px;
@@ -280,18 +281,36 @@ flex-grow: 1 1 0;
   border-radius: 10px;
 }
 
-.contact-me li::after {
+#Contact-Me li::after {
   position: absolute;
   content:"|";
   }
 
-  .contact-me h1 {
-    font-size: 35px;
+  #Contact-Me h1 {
+    font-size: 30px;
     font-weight: bold;
     margin: 15px;
     font-family: 'Montserrat', sans-serif;
   }
   
+  #Resume h1 {
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  #Resume{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #snapshot {
+    height: 300px;
+    width: 80%;
+    right: -150px;
+    position: relative;
+  }
+
   /* MEDIA QUERY FOR MOBILE, TABLET, AND DESKTOP */
 
 @media (min-width: 320px) and (max-width: 980px) {
