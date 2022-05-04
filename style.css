@@ -39,6 +39,7 @@ background-position: 80%;
 /*header h1 styling*/
 
 header h1 {
+  display: inline-flex;
   color: #cc2900;
   font-weight: bold;
   margin: 0;
@@ -57,7 +58,7 @@ header nav {
 }
 
 header nav ul {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   justify-content: space-between;
   list-style: none;
@@ -82,6 +83,18 @@ header nav ul li a:hover {
   border-radius: 15px;
   text-shadow: none;
 }
+
+.buttontwo {
+  font: bold 20px 'Montserrat';
+  text-decoration: none;
+  background-color: #050505;
+  color: #cc2900;
+  padding: 2px 6px 2px 6px;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-radius: 10px;
+}
+
 /*header and nav styles end*/
 
 p, #deployed, #respository {
@@ -287,10 +300,6 @@ flex-grow: 1 1 0;
   border-radius: 10px;
 }
 
-#Contact-Me li::after {
-  position: relative;
-  content:"|";
-  }
 
   #Contact-Me h1 {
     font-size: 30px;
