@@ -162,7 +162,7 @@ flex-grow: 1 1 0;
 #placeholdertwo {
   background-color:#00cccc;
   margin: 5px 10px 10px 5px;
-  width: 50%;
+  width: 40%;
   display: flex;
   position: relative;
   right: -550px;
