@@ -27,7 +27,7 @@ header {
   background-color: #39a6b2;
   height: 400px;
   border: 10px groove #ffe6cc;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   z-index: 9999;
 }
@@ -46,7 +46,7 @@ header h1 {
 /*header nav styling*/
 header nav {
   padding-top: 15px;
-  margin-right: 20px;
+  margin-right: 10px;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
 }
@@ -59,7 +59,7 @@ header nav ul {
   justify-content: space-evenly;
   list-style: none;
   font-family: 'Montserrat', sans-serif;
-  align-items: center;
+  align-items: stretch;
 }
 
 header nav ul li a {
@@ -69,11 +69,13 @@ header nav ul li a {
   font-weight: lighter;
   font-size: 1.55vw;
   color: #cc2900;
-  justify-content: space-evenly;
+  justify-content: space-between;
   font-family: 'Montserrat', sans-serif;
   cursor: pointer;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  align-items: stretch;
 }
+
 /*Styling for when user hovers over or clicks on buttons*/
 header nav ul li a:hover {
   border-radius: 15px;
@@ -93,7 +95,7 @@ header nav ul li a:active {
   text-decoration: none;
   background-color: #050505;
   color: #cc2900;
-  padding: 2px 6px 2px 6px;
+  padding: 2px;
   border-right: 1px solid #333333;
   border-bottom: 1px solid #333333;
   border-radius: 10px;
@@ -132,6 +134,11 @@ flex: 1 1 0;
   flex-flow: row wrap;
   align-items: left;
   }
+
+  #work div {
+    gap: 5% 5%;
+  }
+
 /*#marketing styling*/
 #marketing {
   background-color:#00cccc;
