@@ -216,6 +216,9 @@ flex: 1 1 0;
 
 /*Styling for image in #marketing*/
 .screenshot {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  object-fit: contain;
   height: 500px;
   margin: 10px;
   position: relative;
@@ -224,6 +227,9 @@ flex: 1 1 0;
 
 /*Styling for image in #buddy*/
 .run {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  object-fit: contain;
   height: 200px;
   margin: 10px;
   position: relative;
@@ -232,6 +238,9 @@ flex: 1 1 0;
 
 /*Styling for image in #placeholdertwo*/
 .box {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  object-fit: contain;
   height: 200px;
   margin: 20px;
   position: relative;
@@ -240,6 +249,9 @@ flex: 1 1 0;
 
 /*Styling for image in #placeholder*/
 .space {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  object-fit: contain;
   height: 200px;
   margin: 18px 15px 18px 18px;
   position: relative;
