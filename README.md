@@ -1,25 +1,18 @@
 # Portfolio
+
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
 - What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
+  My motivation in creating this project was to make a an accessible and responsive site to showcase my work to potential employers.
+- Why did you build this project?
+  I built this project to showcase by work to potential employers.
 - What problem does it solve?
+  The problem that is solved through this project is the need for employers to be able to view a potential employee's work samples.
 - What did you learn?
+  I learned that it would have made building this project much easier if I had created a wireframe prior to beginning my build, because I had to restyle the page multiple times, due to a lack of planning. I learned how and when to use flexbox and media query's to make the site reponsive to changing screen sizes and I was able to build on my previous learning about using semantic HTML to make a more accessible site.
 
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
 
 ## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
 To have access to this repository clone this project to your local machine.
 
@@ -32,6 +25,8 @@ The project can be used through accessing the deployed URL and/or through access
 [Deployed URL](https://alexanderthegreat491.github.io/Portfolio/)
 
 [public repository URL](https://github.com/AlexandertheGreat491/Portfolio)
+
+![portfolio screenshot](https://user-images.githubusercontent.com/64184203/166981723-1d558d51-eeb0-4358-83bc-5bb3952dec9b.jpg)
 
 ## Credits
 
