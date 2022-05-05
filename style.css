@@ -59,7 +59,8 @@ header nav {
 
 header nav ul {
   display: inline-flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  order: 4;
   justify-content: space-between;
   list-style: none;
   font-family: 'Montserrat', sans-serif;
@@ -84,7 +85,15 @@ header nav ul li a:hover {
   text-shadow: none;
 }
 
+header nav ul li a:active {
+  border-radius: 15px;
+  text-shadow: 1px 1px #c2d6d6;
+}
+/*header nav button styling*/
 .buttontwo {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  order: 4;
   font: bold 20px 'Montserrat';
   text-decoration: none;
   background-color: #050505;
