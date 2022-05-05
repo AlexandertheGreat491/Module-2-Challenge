@@ -454,7 +454,6 @@ flex: 1 1 0;
       width: 30%;
       display: flex;
       position: relative;
-      right: -10px;
     }
     
     #placeholder {
@@ -501,7 +500,7 @@ flex: 1 1 0;
       object-fit: fill;
       height: 150px;
       margin: 10px;
-      width: 288px;
+      width: 240px;
       position: relative;
       top: -2px;
     }
