@@ -466,44 +466,53 @@ flex: 1 1 0;
     
     #placeholdertwo {
       margin: 9px 9px 9px 5px;
-      width: 50%;
+      width: 40%;
       display: flex;
       position: relative;
-      right: -395px;
+      right: -480px;
     }
 
     /*Image styling in media query*/
     .screenshot {
-      height: 400px;
+      display: inline-flex;
+      flex-wrap: nowrap;
+      object-fit: fill;
+      height: 300px;
       width: 350px;
       margin: 5px;
       position: relative;
     }
     
     .run {
+      display: inline-flex;
+      flex-wrap: nowrap;
+      object-fit: fill;
       height: 140px;
       width: 150px;
       margin: 10px;
       position: relative;
-      right: -100px;
       bottom: -5px;
     }
     
     .box {
+      display: inline-flex;
+      flex-wrap: nowrap;
+      object-fit: fill;
       height: 150px;
       margin: 10px;
       width: 288px;
       position: relative;
-      right: -110px;
       top: -2px;
     }
     
     .space {
+      display: inline-flex;
+      flex-wrap: nowrap;
+      object-fit: fill;
       height: 150px;
       width: 150px;
       margin: 15px;
       position: relative;
-      right: -135px;
     }
 
     /*div styling in media query*/
