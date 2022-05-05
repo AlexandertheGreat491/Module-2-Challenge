@@ -1,13 +1,11 @@
-
 /*Universal styling*/
-
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-/*Body background-color and font-family, margin, & border*/
 
+/*Body background-color and font-family, margin, & border*/
 body {
   background-color: #b32d00;
   margin: 5px;
@@ -15,15 +13,13 @@ body {
 }
 
 /*<header> & <nav> styling*/
-
 /*background-image style*/
-
 header {
   background-image:url(images/sky.jpg);
   display: flex;
   background-size: cover;
-background-attachment: fixed;
-background-position: 80%;
+  background-attachment: fixed;
+  background-position: 80%;
   position: -webkit-sticky;
   position: relative;
   top:0;
@@ -37,7 +33,6 @@ background-position: 80%;
 }
 
 /*header h1 styling*/
-
 header h1 {
   display: inline-flex;
   color: #cc2900;
@@ -49,7 +44,6 @@ header h1 {
 }
 
 /*header nav styling*/
-
 header nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -60,6 +54,7 @@ header nav {
 header nav ul {
   display: inline-flex;
   flex-wrap: nowrap;
+  flex-direction: row;
   order: 4;
   justify-content: space-between;
   list-style: none;
@@ -70,7 +65,7 @@ header nav ul {
 header nav ul li a {
   font-weight: bold;
   margin: 0 30px;
-  display: inline-block;
+  display: inline-flex;
   font-weight: lighter;
   font-size: 1.55vw;
   color: #cc2900;
@@ -79,7 +74,7 @@ header nav ul li a {
   cursor: pointer;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
+/*Styling for when user hovers over or clicks on buttons*/
 header nav ul li a:hover {
   border-radius: 15px;
   text-shadow: none;
@@ -92,7 +87,7 @@ header nav ul li a:active {
 /*header nav button styling*/
 .buttontwo {
   display: inline-flex;
-  flex-wrap: nowrap;
+  flex-flow: row nowrap;
   order: 4;
   font: bold 20px 'Montserrat';
   text-decoration: none;
@@ -105,19 +100,18 @@ header nav ul li a:active {
 }
 
 /*header and nav styles end*/
-
+/*font-family for p, #deployed, & #repository*/
 p, #deployed, #respository {
   font-family: 'Roboto Mono', monospace;
 }
-
+/*Styling for .portfolio*/
 .portfolio {
 display: flex;
 justify-content: start;
 flex-wrap: nowrap;
 border: 20px groove #3366cc;
 align-items: flex-start;
-flex-grow: 1 1 0;
-
+flex: 1 1 0;
 }
 
 .portfolio h1{
@@ -136,11 +130,10 @@ flex-grow: 1 1 0;
 .portfolio div{
   margin: 10px;
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   align-items: left;
-  flex-direction: row;
   }
-
+/*#marketing styling*/
 #marketing {
   background-color:#00cccc;
   margin: 10px 10px 10px 5px;
@@ -158,7 +151,7 @@ flex-grow: 1 1 0;
   font-family: 'Montserrat', sans-serif;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
+/*#buddy styling*/
 #buddy {
   background-color:#00cccc;
   margin: 5px 10px 10px 5px;
@@ -167,7 +160,6 @@ flex-grow: 1 1 0;
   position: relative;
   right: -200px;
   flex-wrap: nowrap;
-
 }
 
 #buddy h2 {
@@ -177,14 +169,13 @@ flex-grow: 1 1 0;
   font-family: 'Montserrat', sans-serif;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
+/*#placeholder styling*/
 #placeholder {
   display: flex;
-  flex-wrap: nowrap;
+  flex-flow: row nowrap;
   background-color:#00cccc;
   margin: 5px 10px 10px 2px;
   width: 40%;
-  display: flex;
   position: relative;
   right: -215px;
 }
@@ -196,15 +187,16 @@ flex-grow: 1 1 0;
   font-family: 'Montserrat', sans-serif;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
+/*#placeholdertwo styling*/
 #placeholdertwo {
+  display: flex;
+  flex-flow: row nowrap;
   background-color:#00cccc;
   margin: 5px 10px 10px 5px;
   width: 40%;
   display: flex;
   position: relative;
   right: -744px;
-  flex-wrap: nowrap;
 }
 
 #placeholdertwo h2 {
@@ -214,28 +206,28 @@ flex-grow: 1 1 0;
   font-family: 'Montserrat', sans-serif;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
+/*Styling for image in #marketing*/
 .screenshot {
   height: 500px;
   margin: 10px;
   position: relative;
   cursor: pointer;
 }
-
+/*Styling for image in #buddy*/
 .run {
   height: 200px;
   margin: 10px;
   position: relative;
   cursor: pointer;
 }
-
+/*Styling for image in #placeholdertwo*/
 .box {
   height: 200px;
   margin: 20px;
   position: relative;
   cursor: pointer;
 }
-
+/*Styling for image in #placeholder*/
 .space {
   height: 200px;
   margin: 18px 15px 18px 18px;
@@ -243,14 +235,14 @@ flex-grow: 1 1 0;
   right: -10px;
   cursor: pointer;
 }
-
+/*#About-Me <p> styling*/
 #About-Me p {
  font-size: 18px;
  color:#b32d00;
  font-family: 'Roboto Mono', monospace; 
  position: relative;
   }
-
+/*.handsome is profile photo styling in About-Me section*/
 .handsome {
     height: 220px;
     position: relative;
@@ -263,19 +255,19 @@ flex-grow: 1 1 0;
 .bio {
     background-color: #003366;
     display: flex;
+    flex-flow: column wrap;
     text-align: left;
-    flex-wrap: wrap;
     width: 65%;
     line-height: 1.5;
   }
-
+/*#Contact-Me styling*/
 #Contact-Me a {
   color: #ff7f50;
   }
 
 #Contact-Me nav {
   display: inline-flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   order: 3;
   justify-content: right;
   font-family: 'Montserrat', sans-serif;
@@ -286,7 +278,7 @@ flex-grow: 1 1 0;
 
 #Contact-Me nav ul li {
   display: inline-flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   text-align: center;
   right: -10px;
   font-family: 'Montserrat', sans-serif;
@@ -302,7 +294,7 @@ flex-grow: 1 1 0;
 
 .button {
   display: inline-flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   order: 3;
   font: bold 20px 'Montserrat';
   text-decoration: none;
@@ -330,7 +322,7 @@ flex-grow: 1 1 0;
   margin: 15px;
   font-family: 'Montserrat', sans-serif;
   }
-  
+  /*#Resume styling*/
 #Resume h1 {
   font-size: 20px;
   text-decoration: underline;
