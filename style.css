@@ -350,6 +350,11 @@ flex: 1 1 0;
   }
 
   /*#Resume styling*/
+#Resume{
+  display: flex;
+  flex-wrap: wrap;
+    }
+
 #Resume h1 {
   font-size: 20px;
   text-decoration: underline;
@@ -357,11 +362,7 @@ flex: 1 1 0;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
-#Resume{
-  display: flex;
-  flex-wrap: wrap;
-  }
-
+/*Styling for image in Resume section*/
 #snapshot {
   height: 300px;
   width: 80%;
