@@ -56,7 +56,7 @@ header nav ul {
   flex-wrap: nowrap;
   flex-direction: row;
   order: 4;
-  justify-content: space-between;
+  justify-content: space-evenly;
   list-style: none;
   font-family: 'Montserrat', sans-serif;
   align-items: center;
@@ -69,7 +69,7 @@ header nav ul li a {
   font-weight: lighter;
   font-size: 1.55vw;
   color: #cc2900;
-  justify-content: space-between;
+  justify-content: space-evenly;
   font-family: 'Montserrat', sans-serif;
   cursor: pointer;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -110,7 +110,6 @@ display: flex;
 justify-content: start;
 flex-wrap: nowrap;
 border: 20px groove #3366cc;
-align-items: flex-start;
 flex: 1 1 0;
 }
 
@@ -187,6 +186,7 @@ flex: 1 1 0;
   font-family: 'Montserrat', sans-serif;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
 /*#placeholdertwo styling*/
 #placeholdertwo {
   display: flex;
@@ -206,6 +206,7 @@ flex: 1 1 0;
   font-family: 'Montserrat', sans-serif;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
 /*Styling for image in #marketing*/
 .screenshot {
   height: 500px;
@@ -213,6 +214,7 @@ flex: 1 1 0;
   position: relative;
   cursor: pointer;
 }
+
 /*Styling for image in #buddy*/
 .run {
   height: 200px;
@@ -220,6 +222,7 @@ flex: 1 1 0;
   position: relative;
   cursor: pointer;
 }
+
 /*Styling for image in #placeholdertwo*/
 .box {
   height: 200px;
@@ -227,6 +230,7 @@ flex: 1 1 0;
   position: relative;
   cursor: pointer;
 }
+
 /*Styling for image in #placeholder*/
 .space {
   height: 200px;
@@ -235,6 +239,7 @@ flex: 1 1 0;
   right: -10px;
   cursor: pointer;
 }
+
 /*#About-Me <p> styling*/
 #About-Me p {
  font-size: 18px;
@@ -242,6 +247,7 @@ flex: 1 1 0;
  font-family: 'Roboto Mono', monospace; 
  position: relative;
   }
+
 /*.handsome is profile photo styling in About-Me section*/
 .handsome {
     height: 220px;
@@ -260,6 +266,7 @@ flex: 1 1 0;
     width: 65%;
     line-height: 1.5;
   }
+
 /*#Contact-Me styling*/
 #Contact-Me a {
   color: #ff7f50;
@@ -322,6 +329,7 @@ flex: 1 1 0;
   margin: 15px;
   font-family: 'Montserrat', sans-serif;
   }
+
   /*#Resume styling*/
 #Resume h1 {
   font-size: 20px;
@@ -375,7 +383,7 @@ flex: 1 1 0;
   header nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     list-style: none;
   }
   
@@ -395,6 +403,7 @@ flex: 1 1 0;
       padding: 2px 6px 2px 6px;
       border-radius: 5px;
     }
+
 /*Styling for .portfolio <article> <div>s in media query*/
   .portfolio h1{
     font-size: 35px;
@@ -443,6 +452,7 @@ flex: 1 1 0;
       position: relative;
       right: -395px;
     }
+
     /*Image styling in media query*/
     .screenshot {
       height: 400px;
@@ -476,7 +486,8 @@ flex: 1 1 0;
       position: relative;
       right: -135px;
     }
-    /*div styling*/
+
+    /*div styling in media query*/
     #About-Me p {
       font-size: 15px;
       position: relative;
