@@ -274,8 +274,9 @@ flex-grow: 1 1 0;
   }
 
 #Contact-Me nav {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
+  order: 3;
   justify-content: right;
   font-family: 'Montserrat', sans-serif;
   position: relative;
@@ -284,7 +285,8 @@ flex-grow: 1 1 0;
   }
 
 #Contact-Me nav ul li {
-  display: inline;
+  display: inline-flex;
+  flex-wrap: wrap;
   text-align: center;
   right: -10px;
   font-family: 'Montserrat', sans-serif;
@@ -299,6 +301,9 @@ flex-grow: 1 1 0;
   }
 
 .button {
+  display: inline-flex;
+  flex-wrap: wrap;
+  order: 3;
   font: bold 20px 'Montserrat';
   text-decoration: none;
   background-color: #050505;
@@ -309,30 +314,40 @@ flex-grow: 1 1 0;
   border-radius: 10px;
 }
 
+#Contact-Me nav ul li a:hover {
+  border-radius: 15px;
+  text-shadow: none;
+}
 
-  #Contact-Me h1 {
-    font-size: 30px;
-    font-weight: bold;
-    margin: 15px;
-    font-family: 'Montserrat', sans-serif;
+#Contact-Me nav ul li a:active {
+  border-radius: 15px;
+  text-shadow: 1px 1px #c2d6d6;
+}
+
+#Contact-Me h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 15px;
+  font-family: 'Montserrat', sans-serif;
   }
   
-  #Resume h1 {
-    font-size: 20px;
-    text-decoration: underline;
-    font-family: 'Montserrat', sans-serif;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
-  #Resume{
-    display: flex;
-    flex-wrap: wrap;
+#Resume h1 {
+  font-size: 20px;
+  text-decoration: underline;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
-  #snapshot {
-    height: 300px;
-    width: 80%;
-    right: -150px;
-    position: relative;
+#Resume{
+  display: flex;
+  flex-wrap: wrap;
+  }
+
+#snapshot {
+  height: 300px;
+  width: 80%;
+  right: -150px;
+  position: relative;
   }
 
   /* MEDIA QUERY FOR MOBILE, TABLET, AND DESKTOP */
