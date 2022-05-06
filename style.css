@@ -372,7 +372,7 @@ flex: 1 1 0;
   position: relative;
   }
 
-@media screen and (max-width: 980px) {
+@media only screen and (max-width: 980px) {
   /*Begin media query styling*/
   /*Media query body, header, & nav styling*/
   body {
