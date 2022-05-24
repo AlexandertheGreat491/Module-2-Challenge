@@ -137,7 +137,6 @@ flex: 1 1 0;
 #marketing {
   background-color:#00cccc;
   margin: 10px 10px 10px 5px;
-  width: 90%;
   display: flex;
   position: relative;
   flex-wrap: nowrap;
@@ -155,7 +154,6 @@ flex: 1 1 0;
 #buddy {
   background-color:#00cccc;
   margin: 5px 10px 10px 5px;
-  width: 40%;
   display: flex;
   position: relative;
   right: -200px;
@@ -175,13 +173,11 @@ flex: 1 1 0;
   flex-flow: row nowrap;
   background-color:#00cccc;
   margin: 5px 10px 10px 2px;
-  width: 40%;
   position: relative;
   right: -215px;
 }
 
 #placeholder h2 {
-  background-color: #00802b;
   font-size: 20px;
   text-decoration: underline;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -193,14 +189,12 @@ flex: 1 1 0;
   flex-flow: row nowrap;
   background-color:#00cccc;
   margin: 5px 10px 10px 5px;
-  width: 40%;
   display: flex;
   position: relative;
   right: -744px;
 }
 
 #placeholdertwo h2 {
-  background-color: #00802b;
   font-size: 20px;
   text-decoration: underline;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
