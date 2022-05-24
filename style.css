@@ -33,8 +33,6 @@ header {
   z-index: 9999;
 }
 
-/*set all h1 & h2 elements to 
-font-family: 'Montserrat', sans-serif;*/
 /*header h1 styling*/
 header h1 {
   display: inline-flex;
@@ -42,7 +40,6 @@ header h1 {
   font-weight: bold;
   margin: 0;
   font-size: 48px;
-  font-family: 'Montserrat', sans-serif;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -50,7 +47,6 @@ header h1 {
 header nav {
   padding-top: 15px;
   margin-right: 10px;
-  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
 }
 
@@ -61,7 +57,6 @@ header nav ul {
   order: 4;
   justify-content: space-evenly;
   list-style: none;
-  font-family: 'Montserrat', sans-serif;
   align-items: stretch;
 }
 
@@ -73,7 +68,6 @@ header nav ul li a {
   font-size: 1.55vw;
   color: #cc2900;
   justify-content: space-between;
-  font-family: 'Montserrat', sans-serif;
   cursor: pointer;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   align-items: stretch;
@@ -94,7 +88,7 @@ header nav ul li a:active {
   display: inline-flex;
   flex-flow: row nowrap;
   order: 4;
-  font: bold 20px 'Montserrat';
+  font: bold 20px;
   text-decoration: none;
   background-color: #050505;
   color: #cc2900;
@@ -105,10 +99,7 @@ header nav ul li a:active {
 }
 
 /*header and nav styles end*/
-/*font-family for p, #deployed, & #repository*/
-p, #deployed, #respository {
-  font-family: 'Roboto Mono', monospace;
-}
+
 /*Styling for .portfolio*/
 .portfolio {
 display: flex;
@@ -122,7 +113,6 @@ flex: 1 1 0;
   font-size: 40px;
   margin: 5px;
   text-decoration: underline;
-  font-family: 'Montserrat', sans-serif;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
@@ -157,9 +147,9 @@ flex: 1 1 0;
   background-color: #00802b;
   font-size: 30px;
   text-decoration: underline;
-  font-family: 'Montserrat', sans-serif;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
 /*#buddy styling*/
 #buddy {
   background-color:#00cccc;
@@ -175,9 +165,9 @@ flex: 1 1 0;
   background-color: #00802b;
   font-size: 20px;
   text-decoration: underline;
-  font-family: 'Montserrat', sans-serif;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
 /*#placeholder styling*/
 #placeholder {
   display: flex;
@@ -193,7 +183,6 @@ flex: 1 1 0;
   background-color: #00802b;
   font-size: 20px;
   text-decoration: underline;
-  font-family: 'Montserrat', sans-serif;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -213,7 +202,6 @@ flex: 1 1 0;
   background-color: #00802b;
   font-size: 20px;
   text-decoration: underline;
-  font-family: 'Montserrat', sans-serif;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -265,8 +253,7 @@ flex: 1 1 0;
 /*#About-Me <p> styling*/
 #About-Me p {
  font-size: 18px;
- color:#b32d00;
- font-family: 'Roboto Mono', monospace; 
+ color:#b32d00; 
  position: relative;
   }
 
@@ -299,7 +286,6 @@ flex: 1 1 0;
   flex-flow: row wrap;
   order: 3;
   justify-content: right;
-  font-family: 'Montserrat', sans-serif;
   position: relative;
   right: -120px;
   top: 25px;
@@ -310,7 +296,6 @@ flex: 1 1 0;
   flex-flow: row wrap;
   text-align: center;
   right: -10px;
-  font-family: 'Montserrat', sans-serif;
   }
 
 #Contact-Me nav ul li a {
@@ -325,7 +310,7 @@ flex: 1 1 0;
   display: inline-flex;
   flex-flow: row wrap;
   order: 3;
-  font: bold 20px 'Montserrat';
+  font: bold 20px;
   text-decoration: none;
   background-color: #050505;
   color: #ff7f50;
@@ -361,7 +346,6 @@ flex: 1 1 0;
 #Resume h1 {
   font-size: 20px;
   text-decoration: underline;
-  font-family: 'Montserrat', sans-serif;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
