@@ -274,19 +274,18 @@ flex: 1 1 0;
   }
 
 #Contact-Me nav {
-  display: inline-flex;
-  flex-flow: row wrap;
-  order: 3;
-  justify-content: right;
   position: relative;
   right: -120px;
   top: 25px;
   }
 
-#Contact-Me nav ul li {
+#Contact-Me nav ul {
   display: inline-flex;
-  flex-flow: row wrap;
-  text-align: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  order: 4;
+  list-style: none;
+  align-items: center;
   right: -10px;
   }
 
@@ -298,11 +297,10 @@ flex: 1 1 0;
   cursor: pointer;
   }
 
-.button {
+.btn, .btn-secondary {
   display: inline-flex;
   flex-flow: row wrap;
   order: 3;
-  font: bold 20px;
   text-decoration: none;
   background-color: #050505;
   color: #ff7f50;
