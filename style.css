@@ -85,18 +85,11 @@ header nav ul li a:active {
 }
 
 /*header nav button styling*/
-.buttontwo {
-  display: inline-flex;
-  flex-flow: row nowrap;
-  order: 4;
-  font: bold 20px;
-  text-decoration: none;
-  background-color: #050505;
-  color: #cc2900;
+#topnav {
+  font-weight: 700;
+  font-size: 20px;
+  color: #006600;
   padding: 2px;
-  border-right: 1px solid #333333;
-  border-bottom: 1px solid #333333;
-  border-radius: 10px;
 }
 
 /*header and nav styles end*/
