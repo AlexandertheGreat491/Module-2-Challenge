@@ -18,7 +18,7 @@ body {
 /*<header> & <nav> styling*/
 /*background-image style*/
 header {
-  background-image:url(images/sky.jpg);
+  background-image: url(images/sky.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: 80%;
