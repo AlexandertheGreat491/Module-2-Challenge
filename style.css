@@ -86,6 +86,7 @@ flex: 1 1 0;
 
 .portfolio h1{
   font-size: 40px;
+  font-weight: 700;
   margin: 5px;
   text-decoration: underline;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -166,6 +167,7 @@ flex: 1 1 0;
 
 #placeholdertwo h2 {
   font-size: 20px;
+  font-weight: 700;
   text-decoration: underline;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -266,26 +268,22 @@ flex: 1 1 0;
   }
 
 
+
   /*#Resume styling*/
 #Resume{
   display: flex;
   flex-wrap: wrap;
     }
 
-#Resume h1 {
+#resume-header {
   font-size: 30px;
   font-weight: 700;
   text-decoration: underline;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-right: 20px;
   }
 
-/*Styling for image in Resume section*/
-#snapshot {
-  height: 300px;
-  width: 80%;
-  right: -150px;
-  position: relative;
-  }
+
 
 @media only screen and (max-width: 980px) {
   /*Begin media query styling*/
