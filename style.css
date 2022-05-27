@@ -283,7 +283,11 @@ flex: 1 1 0;
   margin-right: 20px;
   }
 
-
+  span {
+    font-size: 35px;
+    color: #000000;
+    padding-top: 10px;
+  }
 
 @media only screen and (max-width: 980px) {
   /*Begin media query styling*/
