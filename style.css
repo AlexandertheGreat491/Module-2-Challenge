@@ -7,11 +7,13 @@
 
 /*Body background-color and font-family, margin, & border*/
 body {
-  background-color: #b32d00;
+  background-color: #808080;
   margin: 5px;
   border: 5px solid #008080;
   font-family: 'Oswald', sans-serif;
 }
+
+
 
 /*<header> & <nav> styling*/
 /*background-image style*/
@@ -266,8 +268,6 @@ flex: 1 1 0;
   font-size: 30px;
   font-weight: 700;
   }
-
-
 
   /*#Resume styling*/
 #Resume{
