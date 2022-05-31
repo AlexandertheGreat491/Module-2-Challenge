@@ -19,7 +19,7 @@
 
 <body>
   <!-- navigation-->
-  <header>
+  <header class="container-fluid">
     <h1 class="text-left d-flex flex-row">
       Alex Van Dyke
     </h1>
@@ -42,12 +42,12 @@
   <!--end navigation-->
   <!--begin main part of page-->
   <!--.portfolio class for <article> will affect all <div>-->
-  <article class="col d-flex flex-row portfolio">
+  <article class="container-fluid portfolio">
     <!--About-Me section-->
     <div id="About-Me" class="col">
       <h1>About Me</h1>
       <img src="images\profile picture.JPG" alt="Professional Photograph" class="handsome" />
-      <section class="col bio mt-4 pt-2">
+      <section class="col col-sm col-md col-lg col-xl bio mt-4 pt-2">
         <p>
           I am a new web development professional with who is adept in HTML5, CSS, and JavaScript, who also brings
           significant writing, organization, teamwork skills gained from prior professional, military, and teaching
@@ -64,14 +64,14 @@
     </div>
   </article>
   <!--About-Me section ends-->
-  <main class="col-12 col-md-6 col-xl-3 mb-3">
-    <div class="m-5 row justify-content-around">
-      <section class="portfolio">
+  <main class="col-12 col-sm col-md-6 col-xl-3 mb-3">
+    <div class="m-5 row">
+      <section class=" container-fluid portfolio">
         <!--Work section-->
         <div id="Work" class="col">
           <h1>Work</h1>
           <!--First work sample-->
-          <div id="marketing" class="card border border-dark rounded">
+          <div id="marketing" class="card border border-dark rounded mb-3">
             <h2 class="card-header bg-dark text-light d-flex align-items-center">
               Marketing Agency: HTML & CSS:
             </h2>
@@ -79,7 +79,7 @@
                 src="images\Screenshot.jpg" alt="Marketing Agency" class="screenshot" /></a>
           </div>
           <!--Second work sample-->
-          <div id="buddy" class="card border border-dark rounded">
+          <div id="buddy" class="card border border-dark rounded mb-3">
             <h2 class="card-header bg-dark text-light d-flex align-items-center">
               Run Buddy: HTML & CSS
             </h2>
@@ -87,7 +87,7 @@
                 src="images\Run Buddy Screenshot.jpg" alt="Run Buddy Launch Page" class="run" /></a>
           </div>
           <!--A placeholder example-->
-          <div id="placeholder" class="card border border-dark rounded">
+          <div id="placeholder" class="card border border-dark rounded mb-3">
             <h2 class="card-header bg-dark text-light d-flex align-items-center">
               Cool Project Name
             </h2>
@@ -96,7 +96,7 @@
             <p>This is a placeholder example and so that's why there are no links.</p>
           </div>
           <!--A placeholder until a better sample is available-->
-          <div id="placeholdertwo" class="card border border-dark rounded">
+          <div id="placeholdertwo" class="card border border-dark rounded mb-3">
             <h2 class="card-header bg-dark text-light d-flex align-items-center">
               Watch That Box: HTML, JavaScript
             </h2>
