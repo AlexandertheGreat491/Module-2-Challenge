@@ -254,6 +254,8 @@ flex: 1 1 0;
  background-color: #1a75ff;
  position: relative;
  right: -200px;
+ width: 55%;
+ height: 400px;
   }
 
 #bottomnav {
@@ -264,6 +266,7 @@ flex: 1 1 0;
   padding: 2px 6px 2px 6px;
   text-decoration: underline;
   color: #006600; 
+  
 }
 
 #Contact-Me h1 {
