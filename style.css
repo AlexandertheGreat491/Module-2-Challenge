@@ -265,9 +265,18 @@ flex: 1 1 0;
   font-weight: 700;
   font-size: 20px;
   padding: 2px 6px 2px 6px;
-  text-decoration: underline;
   color: #006600; 
   
+}
+
+#linkedin {
+  color:#000000;
+  margin-left: 30px;
+}
+
+#github {
+  color:#000000;
+  margin-left: 45px;
 }
 
 #Contact-Me h1 {
@@ -275,10 +284,12 @@ flex: 1 1 0;
   font-weight: 700;
   }
 
+
   /*#Resume styling*/
-#Resume{
+#Resume {
   display: flex;
   flex-wrap: wrap;
+  background-color: #1a75ff;
     }
 
 #resume-header {
@@ -294,220 +305,5 @@ flex: 1 1 0;
     color: #000000;
     padding-top: 10px;
   }
+ 
 
-@media only screen and (max-width: 980px) {
-  /*Begin media query styling*/
-  /*Media query body, header, & nav styling*/
-  body {
-    margin: 4px;
-    border: 4px solid #008080;
-  }
-
-  header {
-    display: flex;
-    height: 500px;
-    padding-bottom: 0;
-    position: relative;
-  }
-
-  header h1 {
-    display: flex;
-    font-weight: bold;
-    margin: 0;
-    font-size: 35px;
-    margin-right: 10px;
-  }
-
-  header nav {
-    padding-top: 10px;
-    margin-right: 18px;
-    font-size: 18px;
-  }
-
-  header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    list-style: none;
-  }
-  
-  header nav ul li a {
-    margin: 0 30px;
-    display: inline-block;
-    font-size: 1.40vw;
-    }
-
-    header nav ul li a:hover {
-      border-radius: 15px;
-      text-shadow: none;
-    }
-    
-    .buttontwo {
-      font: bold 15px 'Montserrat';
-      padding: 2px 6px 2px 6px;
-      border-radius: 5px;
-    }
-
-/*Styling for .portfolio <article> <div>s in media query*/
-  .portfolio h1{
-    font-size: 35px;
-    margin: 5px;
-    }
-
-    .portfolio h2{
-      font-size: 25px;
-      }
-    
-    .portfolio div{
-      margin: 10px;
-      display: flex;
-      flex-wrap: wrap;
-      align-items: left;
-      }
-    
-    #marketing {
-      margin: 9px 9px 9px 5px;
-      width: 70%;
-      display: flex;
-      position: relative;
-      right: -100px;
-    }
-    
-    #buddy {
-      margin: 9px 9px 9px 5px;
-      width: 30%;
-      display: flex;
-      position: relative;
-    }
-    
-    #placeholder {
-      margin: 9px 9px 9px 5px;
-      width: 40%;
-      display: flex;
-      position: relative;
-      right: -200px;
-    }
-    
-    #placeholdertwo {
-      margin: 9px 9px 9px 5px;
-      width: 40%;
-      display: flex;
-      position: relative;
-      right: -480px;
-    }
-
-    /*Image styling in media query*/
-    .screenshot {
-      display: inline-flex;
-      flex-wrap: nowrap;
-      object-fit: fill;
-      height: 300px;
-      width: 350px;
-      margin: 5px;
-      position: relative;
-    }
-    
-    .run {
-      display: inline-flex;
-      flex-wrap: nowrap;
-      object-fit: fill;
-      height: 140px;
-      width: 150px;
-      margin: 10px;
-      position: relative;
-      bottom: -5px;
-    }
-    
-    .box {
-      display: inline-flex;
-      flex-wrap: nowrap;
-      object-fit: fill;
-      height: 150px;
-      margin: 10px;
-      width: 240px;
-      position: relative;
-    }
-    
-    .space {
-      display: inline-flex;
-      flex-wrap: nowrap;
-      object-fit: fill;
-      height: 150px;
-      width: 150px;
-      margin: 15px;
-      position: relative;
-    }
-
-    /*div styling in media query*/
-    #About-Me p {
-      font-size: 15px;
-      position: relative;
-      }
-    
-    .handsome {
-        height: 220px;
-        position: relative;
-        left: -100px;
-        margin: 25px 20px 10px 15px;
-        padding-top: 5px;
-      }
-    
-    .bio {
-        background-color: #003366;
-        display: flex;
-        text-align: left;
-        flex-wrap: wrap;
-        width: 50%;
-        line-height: 1.3;
-      }
-    
-      #Contact-Me {
-        height: 80px;
-      }
-
-    #Contact-Me nav {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      position: relative;
-      right: -80px;
-      }
-    
-    #Contact-Me nav ul li {
-      display: inline;
-      text-align-last: center;
-      }
-    
-    #Contact-Me nav ul li a {
-      margin: 0 20px;
-      font-weight: bold;
-      font-size: 20px;
-      position: relative;
-      }
-    
-      #Contact-Me h1 {
-        font-size: 45px;
-        font-weight: bold;
-        margin: 4px;
-      }
-
-      #Resume h1 {
-        font-size: 20px;
-        text-decoration: underline;
-        font-family: 'Montserrat', sans-serif;
-        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-      }
-      #Resume{
-        display: flex;
-        flex-wrap: wrap;
-      }
-    
-      #snapshot {
-        height: 300px;
-        width: 80%;
-        right: -150px;
-        position: relative;
-      }
-
-}
-/*end of media query styling*/
