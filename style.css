@@ -207,8 +207,8 @@ flex: 1 1 0;
   cursor: pointer;
 }
 
-/*Styling for image in #placeholder*/
-.space {
+/*Styling for image in Movie Nerds*/
+.project1 {
   display: inline-flex;
   flex-wrap: nowrap;
   object-fit: contain;
