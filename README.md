@@ -41,6 +41,11 @@ Learn how to Bootstrap icon styles in html and css. (n.d.). W3schools.io. Retrie
 W3Schools. (2022). CSS Tutorial. W3Schools. (https://www.w3schools.com/css/default.asp)
 
 W3Schools. (2022). HTML Tutorial. W3Schools. (https://www.w3schools.com/html/default.asp)
+
+Sources:
+
+[Giphy]("https://giphy.com/gifs/giffffr-2XflxzDAw5pn6WaA372")
+
 ## License
 
 GNU GENERAL PUBLIC LICENSE
