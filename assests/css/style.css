@@ -280,8 +280,8 @@ flex: 1 1 0;
  display: flex;
  flex-wrap: wrap;
  background-color: #1a75ff;
- width: 15.625em;
- height: 15.625em;
+ width: 6.25em;
+ height: 6.25em;
   }
 
 #bottomnav {
@@ -290,21 +290,7 @@ flex: 1 1 0;
   font-weight: 700;
   font-size: 1.25em;
   color: #006600; 
-  
-}
-
-#phone {
-  margin-left: 1.875em;
-}
-
-#linkedin {
-  color:#000000;
-  margin-left: 1.875em;
-}
-
-#github {
-  color:#000000;
-  margin-left: 2.8125em;
+  text-decoration: underline;
 }
 
 #Contact-Me h1 {
@@ -318,8 +304,8 @@ flex: 1 1 0;
   display: flex;
   flex-wrap: wrap;
   background-color: #1a75ff;
-  height: 12.5em;
-  width: 12.5em;
+  height: 6.25em;
+  width: 6.25em;
     }
 
 #resume-header {
@@ -335,5 +321,6 @@ flex: 1 1 0;
     color: #000000;
     padding-top: 0.625em;
   }
- 
+
+  
 
