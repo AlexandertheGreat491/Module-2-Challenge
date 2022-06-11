@@ -98,33 +98,43 @@
         <!--Work section-->
         <div id="Work" class="col">
           <h1>Work</h1>
-          <!--First work sample-->
-          <div id="marketing" class="card border border-dark rounded mb-3">
-            <h2 class="card-header bg-dark text-light d-flex align-items-center">
-              Marketing Agency: HTML & CSS:
-            </h2>
-            <a id="deployed" href="https://alexanderthegreat491.github.io/Marketing-Agency/"><img
-                src="images\Screenshot.jpg" alt="Marketing Agency" class="screenshot" /></a>
+          <!--Marketing Agency starts-->
+          <div class="row">
+            <div id="marketing" class="card border border-dark rounded mb-3 col-sm">
+              <h2 class="card-header bg-dark text-light d-flex align-items-center">
+                Marketing Agency: HTML & CSS:
+              </h2>
+              <a id="deployed" href="https://alexanderthegreat491.github.io/Marketing-Agency/"><img
+                  src="images\Screenshot.jpg" alt="Marketing Agency" class="screenshot" /></a>
+            </div>
           </div>
-          <!--Second work sample-->
-          <div id="buddy" class="card border border-dark rounded mb-3">
-            <h2 class="card-header bg-dark text-light d-flex align-items-center">
-              Run Buddy: HTML & CSS
-            </h2>
-            <a id="deployed" href="https://alexanderthegreat491.github.io/Run-Buddy/"><img
-                src="images\Run Buddy Screenshot.jpg" alt="Run Buddy Launch Page" class="run" /></a>
+          <!--Marketing Agency ends-->
+          <!--Run Buddy starts-->
+          <div class="row">
+            <div id="buddy" class="card border border-dark rounded mb-3 col-sm">
+              <h2 class="card-header bg-dark text-light d-flex align-items-center">
+                Run Buddy: HTML & CSS
+              </h2>
+              <a id="deployed" href="https://alexanderthegreat491.github.io/Run-Buddy/"><img
+                  src="images\Run Buddy Screenshot.jpg" alt="Run Buddy Launch Page" class="run" /></a>
+            </div>
           </div>
-          <!--Project 1 will go here-->
-          <div id="nerds" class="card border border-dark rounded mb-3">
-            <h2 class="card-header bg-dark text-light d-flex align-items-center">
-              Movie Nerds: HTML, CSS, JavaScript, Materialize
-            </h2>
-            <a id="movies" href="https://alexanderthegreat491.github.io/solid-octo-funicular/"><img
-                src="images\countdown.gif" alt="countdown" class="project1" /></a>
-            <br>
+          <!--Run Buddy ends-->
+          <!--Project 1/Movie Nerds starts-->
+          <div class="row">
+            <div id="nerds" class="card border border-dark rounded mb-3 col-sm">
+              <h2 class="card-header bg-dark text-light d-flex align-items-center">
+                Movie Nerds: HTML, CSS, JavaScript, Materialize
+              </h2>
+              <a id="movies" href="https://alexanderthegreat491.github.io/solid-octo-funicular/"><img
+                  src="images\countdown.gif" alt="countdown" class="project1" /></a>
+              <br>
+            </div>
           </div>
-          <!--A placeholder until a better sample is available-->
-          <div id="watch" class="card border border-dark rounded mb-3">
+          <!--Project 1/Movie Nerds ends-->
+          <!--Watch-That-Box starts-->
+          <div class="row">
+          <div id="watch" class="card border border-dark rounded mb-3 col-sm">
             <h2 class="card-header bg-dark text-light d-flex align-items-center">
               Watch That Box: HTML, JavaScript
             </h2>
@@ -132,18 +142,23 @@
                 src="images\Watch-that-box.jpg" alt="Watch That Box" class="box" /></a>
           </div>
         </div>
+          <!--Watch-That-Box ends-->
+        </div>
       </section>
       <!--Work section ends-->
-      <section class="portfolio">
+      <article class="portfolio row"></article>
+      <section class="row">
         <!--Contact-Me section-->
+        <div class="row">
         <div id="Contact-Me"
-          class="container m-3 p-2 rounded border border-dark flex-column flex-sm-column flex-md-column flex-lg-column flex-xl-column">
+          class="container align-self-center rounded border border-dark col-sm">
           <h1>Contact-Me</h1>
           <br>
+          <div class="row">
           <ul class="nav nav-pills nav-fill">
             <li class="nav-item mb-3">
               <a href="#Phone-Number" id="bottomnav" class="nav-link">(612) 418-1169<span
-                  class="oi oi-phone"></span></a>
+                  class="oi oi-phone" id="phone"></span></a>
             </li>
 
             <li class="nav-item mb-3">
@@ -157,15 +172,22 @@
             </li>
           </ul>
         </div>
+      </div>
+      </div>
       </section>
       <!--Contact-Me section ends-->
-      <article id="Resume" class="portfolio border border-dark rounded">
+      <section id="Resume" class="portfolio border border-dark rounded row">
         <!--Resume section-->
+        <div class="row">
+        <div class="col-sm">
         <h1 id="resume-header">Resume</h1>
         <a href="https://docs.google.com/document/d/1r8TIeD5Tgv_ofiE5b5S-V3y0l0f4vR-mGP0vUZxcwu4/edit?usp=sharing">
           <span class="oi oi-file"></span></a>
-      </article>
+        </div>
+        </div>
+      </section>
       <!--Resume section ends-->
+    </article>
   </main>
 </body>
 <!--end of main part of page-->
