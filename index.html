@@ -54,7 +54,7 @@
 
       </nav>
     </div>
-
+    <!--end navigation-->
     <!--Clock-->
     <div class="datetime">
       <div class="time"></div>
@@ -64,31 +64,33 @@
     <!--https://codepen.io/dcode-software/pen/abqRRqq-->
 
   </header>
-  <!--end navigation-->
+
   <!--begin main part of page-->
   <!--.portfolio class for <article> will affect all <div>-->
   <article class="container-fluid portfolio">
     <!--About-Me section-->
-    <div id="About-Me" class="col">
-      <h1>About Me</h1>
-      <!--Profile picture-->
-      <img src="images\profile picture.JPG" alt="professional photograph" class="handsome" />
-      <section class="col col-sm col-md col-lg col-xl bio mt-4 pt-2">
-        <p>
-          I am a new web development professional with who is adept in HTML5, CSS, JavaScript, Moment.js, Bootstrap,
-          Pure.css, Materialize.css, and jQuery.
-          I am a web developer who also brings
-          significant writing, organization, teamwork skills gained from prior professional, military, and teaching
-          experience. I am motivated to work effectively through a compulsive need to problem-solve and continually
-          learn more
-          about coding to better support team members and deliver applications with high quality and clean code.
-        </p>
-        <p>
-          My prior experience in the Navy and in working in education have provided me with skills in teamwork and
-          conflict resolution. In the Navy, I worked in the intelligence field and problem solving was a common place
-          and necessary to deliver the best product to the customer.
-        </p>
-      </section>
+    <div id="About-Me" class="row">
+      <div class="col-sm">
+        <h1>About Me</h1>
+        <!--Profile picture-->
+        <img src="images\profile picture.JPG" alt="professional photograph" class="handsome" />
+        <section id="bio" class="container mt-2 border border-dark border-4 rounded">
+          <p>
+            I am a new web development professional with who is adept in HTML5, CSS, JavaScript, Moment.js, Bootstrap,
+            Pure.css, Materialize.css, and jQuery.
+            I am a web developer who also brings
+            significant writing, organization, teamwork skills gained from prior professional, military, and teaching
+            experience. I am motivated to work effectively through a compulsive need to problem-solve and continually
+            learn more
+            about coding to better support team members and deliver applications with high quality and clean code.
+          </p>
+          <p>
+            My prior experience in the Navy and in working in education have provided me with skills in teamwork and
+            conflict resolution. In the Navy, I worked in the intelligence field and problem solving was a common place
+            and necessary to deliver the best product to the customer.
+          </p>
+        </section>
+      </div>
     </div>
   </article>
   <!--About-Me section ends-->
@@ -134,14 +136,14 @@
           <!--Project 1/Movie Nerds ends-->
           <!--Watch-That-Box starts-->
           <div class="row">
-          <div id="watch" class="card border border-dark border-3 rounded mb-3 col-sm">
-            <h2 class="card-header bg-dark text-light d-flex align-items-center">
-              Watch That Box: HTML, JavaScript
-            </h2>
-            <a id="deployed" href="https://alexanderthegreat491.github.io/Watch-That-Box/"><img
-                src="images\Watch-that-box.jpg" alt="Watch That Box" class="box" /></a>
+            <div id="watch" class="card border border-dark border-3 rounded mb-3 col-sm">
+              <h2 class="card-header bg-dark text-light d-flex align-items-center">
+                Watch That Box: HTML, JavaScript
+              </h2>
+              <a id="deployed" href="https://alexanderthegreat491.github.io/Watch-That-Box/"><img
+                  src="images\Watch-that-box.jpg" alt="Watch That Box" class="box" /></a>
+            </div>
           </div>
-        </div>
           <!--Watch-That-Box ends-->
         </div>
       </section>
@@ -150,42 +152,41 @@
       <section class="row mb-3">
         <!--Contact-Me section-->
         <div class="row">
-        <div id="Contact-Me"
-          class="container align-self-center rounded border border-dark border-3 col-sm">
-          <h1>Contact-Me</h1>
-          <br>
-          <div class="row">
-          <ul class="nav nav-pills nav-fill">
-            <li class="nav-item mb-3">
-              <a href="#Phone-Number" id="bottomnav" class="nav-link ms-2">(612) 418-1169</a>
-            </li>
+          <div id="Contact-Me" class="container align-self-center rounded border border-dark border-3 col-sm">
+            <h1>Contact-Me</h1>
+            <br>
+            <div class="row">
+              <ul class="nav nav-pills nav-fill">
+                <li class="nav-item mb-3">
+                  <a href="#Phone-Number" id="bottomnav" class="nav-link ms-2">(612) 418-1169</a>
+                </li>
 
-            <li class="nav-item mb-3">
-              <a href="https://www.linkedin.com/in/alexander-van-dyke-a263a631" id="bottomnav"
-                class="nav-link">LinkedIn</a>
-            </li>
+                <li class="nav-item mb-3">
+                  <a href="https://www.linkedin.com/in/alexander-van-dyke-a263a631" id="bottomnav"
+                    class="nav-link">LinkedIn</a>
+                </li>
 
-            <li class="nav-item">
-              <a href="https://github.com/AlexandertheGreat491" id="bottomnav" class="nav-link">GitHub</a>
-            </li>
-          </ul>
+                <li class="nav-item">
+                  <a href="https://github.com/AlexandertheGreat491" id="bottomnav" class="nav-link">GitHub</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
-      </div>
       </section>
       <!--Contact-Me section ends-->
       <section id="Resume" class="portfolio border border-dark border-3 rounded row">
         <!--Resume section-->
         <div class="row">
-        <div class="col-sm">
-        <h1 id="resume-header">Resume</h1>
-        <a href="https://docs.google.com/document/d/1r8TIeD5Tgv_ofiE5b5S-V3y0l0f4vR-mGP0vUZxcwu4/edit?usp=sharing">
-          <span class="oi oi-file"></span></a>
-        </div>
+          <div class="col-sm">
+            <h1 id="resume-header">Resume</h1>
+            <a href="https://docs.google.com/document/d/1r8TIeD5Tgv_ofiE5b5S-V3y0l0f4vR-mGP0vUZxcwu4/edit?usp=sharing">
+              <span class="oi oi-file"></span></a>
+          </div>
         </div>
       </section>
       <!--Resume section ends-->
-    </article>
+      </article>
   </main>
 </body>
 <!--end of main part of page-->

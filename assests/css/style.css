@@ -238,7 +238,8 @@ flex: 1 1 0;
 /*#About-Me <p> styling*/
 #About-Me p {
  font-size: 1.125em;
- color:#b32d00; 
+ font-weight: 600;
+ color: #008000; 
  position: relative;
   }
 
@@ -252,15 +253,8 @@ flex: 1 1 0;
     padding-top: 0.3125em;
   }
 
-.bio {
-    background-color: #003366;
-    display: flex;
-    flex-flow: column wrap;
-    text-align: left;
-    width: 65%;
-    line-height: 1.5;
-    height: 80%;
-    bottom: -6.25em;
+  #bio {
+    background-color: #1a75ff;
   }
 
 /*#Contact-Me styling*/
