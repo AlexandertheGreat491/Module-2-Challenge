@@ -18,7 +18,7 @@ body {
 /*<header> & <nav> styling*/
 /*background-image style*/
 header {
-  background-image: url(images/sky.jpg);
+  background-color: #003300;
   background-size: cover;
   background-attachment: fixed;
   background-position: 80%;
@@ -26,9 +26,8 @@ header {
   position: relative;
   top:0;
   padding: 1.25em 2.1875em;
-  background-color: #39a6b2;
   height: 25em;
-  border: 10px groove #ffe6cc;
+  border: 0.625em groove #ffe6cc;
   border-radius: 1.25em;
   justify-content: space-evenly;
 }
@@ -47,17 +46,6 @@ header nav {
   text-decoration: underline;
 }
 
-
-header nav ul li a {
-  font-weight: bold;
-  font-weight: lighter;
-  font-size: 1.55vw;
-  color: #cc2900;
-  justify-content: space-between;
-  cursor: pointer;
-  text-shadow: 0 0 0.625em rgba(0, 0, 0, 0.5);
-}
-
 /*Styling for when user hovers over or clicks on links*/
 header nav ul li a:hover {
   border-radius: 0.9375em;
@@ -73,7 +61,7 @@ header nav ul li a:active {
 #topnav {
   font-weight: 700;
   font-size: 1.25em;
-  color: #006600;
+  color: #ff6666;
   padding: 0.125em;
   margin-bottom: 1.875em;
 }
