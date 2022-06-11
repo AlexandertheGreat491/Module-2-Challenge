@@ -29,6 +29,7 @@ header {
   background-color: #39a6b2;
   height: 400px;
   border: 10px groove #ffe6cc;
+  border-radius: 1.25em;
   justify-content: space-evenly;
 }
 
@@ -57,7 +58,7 @@ header nav ul li a {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-/*Styling for when user hovers over or clicks on buttons*/
+/*Styling for when user hovers over or clicks on links*/
 header nav ul li a:hover {
   border-radius: 15px;
   text-shadow: none;
