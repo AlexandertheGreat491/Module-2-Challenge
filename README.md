@@ -46,7 +46,7 @@ W3Schools. (2022). HTML Tutorial. W3Schools. (https://www.w3schools.com/html/def
 
 Sources:
 
-[Giphy]("https://giphy.com/gifs/giffffr-2XflxzDAw5pn6WaA372")
+Giphy ("https://giphy.com/gifs/giffffr-2XflxzDAw5pn6WaA372")
 
 ## License
 
