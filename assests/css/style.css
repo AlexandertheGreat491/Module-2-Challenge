@@ -123,7 +123,7 @@ flex: 1 1 0;
   }
 
 /*#marketing styling*/
-#marketing {
+#children {
   background-color:#00cccc;
   margin: 0.625em 0.625em 0.625em 0.3125em;
   display: flex;
@@ -132,9 +132,9 @@ flex: 1 1 0;
   right: -6.25em;
 }
 
-#marketing h2 {
+#children h2 {
   background-color: #00802b;
-  font-size: 1.875em;
+  font-size: 1.25em;
   text-decoration: underline;
   text-shadow: 0 0 0.625em rgba(0, 0, 0, 0.5);
 }
@@ -184,7 +184,7 @@ flex: 1 1 0;
 }
 
 #watch h2 {
-  font-size: 1.8125em;
+  font-size: 1.25em;
   font-weight: 700;
   text-decoration: underline;
   text-shadow: 0 0 0.625em rgba(0, 0, 0, 0.5);
