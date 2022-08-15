@@ -37,7 +37,7 @@ Collaborators:
 
 Tutorials used:
 
-[Codepen]("https://codepen.io/dcode-software/pen/abqRRqq)
+[Codepen](https://codepen.io/dcode-software/pen/abqRRqq)
 
 Learn how to Bootstrap icon styles in html and css. (n.d.). W3schools.io. Retrieved May 31, 2022, from https://www.w3schools.io/icons/bootstrap-icons-styles/
 
