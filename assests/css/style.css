@@ -126,6 +126,7 @@ flex: 1 1 0;
 #children {
   background-color:#00cccc;
   margin: 0.625em 0.625em 0.625em 0.3125em;
+  width: 75%;
   display: flex;
   position: relative;
   flex-wrap: nowrap;
@@ -134,7 +135,7 @@ flex: 1 1 0;
 
 #children h2 {
   background-color: #00802b;
-  font-size: 1.25em;
+  font-size: 1.0625em;
   text-decoration: underline;
   text-shadow: 0 0 0.625em rgba(0, 0, 0, 0.5);
 }
@@ -146,12 +147,13 @@ flex: 1 1 0;
   display: flex;
   position: relative;
   right: -6.25em;
+  width: 75%;
   flex-wrap: nowrap;
 }
 
 #buddy h2 {
   background-color: #00802b;
-  font-size: 1.25em;
+  font-size: 1.0625em;
   text-decoration: underline;
   text-shadow: 0 0 0.625em rgba(0, 0, 0, 0.5);
 }
@@ -164,10 +166,11 @@ flex: 1 1 0;
   margin: 0.3125em 0.625em 0.625em 0.125em;
   position: relative;
   right: -6.25em;
+  width: 80%;
 }
 
 #nerds h2 {
-  font-size: 1.25em;
+  font-size: 1.0625em;
   text-decoration: underline;
   text-shadow: 0 0 0.625em rgba(0, 0, 0, 0.5);
 }
@@ -190,7 +193,7 @@ flex: 1 1 0;
   text-shadow: 0 0 0.625em rgba(0, 0, 0, 0.5);
 }
 
-/*Styling for image in #marketing*/
+/*Styling for image in #children*/
 .screenshot {
   display: inline-flex;
   flex-wrap: nowrap;
@@ -199,6 +202,7 @@ flex: 1 1 0;
   margin: 0.625em;
   position: relative;
   cursor: pointer;
+  width: 80%;
 }
 
 /*Styling for image in #buddy*/
@@ -210,6 +214,7 @@ flex: 1 1 0;
   margin: 0.625em;
   position: relative;
   cursor: pointer;
+  width: 80%;
 }
 
 /*Styling for image in #placeholdertwo*/
