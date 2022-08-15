@@ -35,19 +35,20 @@ Collaborators:
 
 [Alexander Van Dyke] (https://github.com/AlexandertheGreat491/Portfolio)
 
-Tutorials used:
+Sources:
 
 [Codepen](https://codepen.io/dcode-software/pen/abqRRqq)
 
-Learn how to Bootstrap icon styles in html and css. (n.d.). W3schools.io. Retrieved May 31, 2022, from https://www.w3schools.io/icons/bootstrap-icons-styles/
+[Giphy]("https://giphy.com/gifs/giffffr-2XflxzDAw5pn6WaA372")
 
-W3Schools. (2022). CSS Tutorial. W3Schools. (https://www.w3schools.com/css/default.asp)
+[Learn how to Bootstrap icon styles in html and css. (n.d.). W3schools.io. Retrieved May 31, 2022](https://www.w3schools.io/icons/bootstrap-icons-styles/)
 
-W3Schools. (2022). HTML Tutorial. W3Schools. (https://www.w3schools.com/html/default.asp)
+[PX to EM Conversion](https://www.w3schools.com/tags/ref_pxtoemconversion.asp)
 
-Sources:
+[W3Schools. (2022). CSS Tutorial. W3Schools.](https://www.w3schools.com/css/default.asp)
 
-Giphy ("https://giphy.com/gifs/giffffr-2XflxzDAw5pn6WaA372")
+[W3Schools. (2022). HTML Tutorial. W3Schools.](https://www.w3schools.com/html/default.asp)
+
 
 ## License
 
