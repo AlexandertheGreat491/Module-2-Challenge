@@ -166,7 +166,7 @@ flex: 1 1 0;
   margin: 0.3125em 0.625em 0.625em 0.125em;
   position: relative;
   right: -6.25em;
-  width: 80%;
+  width: 75%;
 }
 
 #nerds h2 {
@@ -184,10 +184,11 @@ flex: 1 1 0;
   display: flex;
   position: relative;
   right: -6.25em;
+  width: 75%;
 }
 
 #watch h2 {
-  font-size: 1.25em;
+  font-size: 1.0625em;
   font-weight: 700;
   text-decoration: underline;
   text-shadow: 0 0 0.625em rgba(0, 0, 0, 0.5);
@@ -226,6 +227,7 @@ flex: 1 1 0;
   margin: 1.25em;
   position: relative;
   cursor: pointer;
+  width: 80%;
 }
 
 /*Styling for image in Movie Nerds*/
@@ -238,6 +240,7 @@ flex: 1 1 0;
   position: relative;
   right: -0.625em;
   cursor: pointer;
+  width: 75%;
 }
 
 /*#About-Me <p> styling*/
