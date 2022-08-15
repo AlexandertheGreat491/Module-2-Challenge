@@ -126,7 +126,7 @@ flex: 1 1 0;
 #children {
   background-color:#00cccc;
   margin: 0.625em 0.625em 0.625em 0.3125em;
-  width: 75%;
+  width: 80%;
   display: flex;
   position: relative;
   flex-wrap: nowrap;
@@ -203,7 +203,7 @@ flex: 1 1 0;
   margin: 0.625em;
   position: relative;
   cursor: pointer;
-  width: 80%;
+  width: 90%;
 }
 
 /*Styling for image in #buddy*/
@@ -270,6 +270,8 @@ flex: 1 1 0;
  background-color: #1a75ff;
  width: 1em;
  height: 5em;
+ margin-left: 0.9375em;
+ margin-bottom: 0.3125em;
   }
 
 #bottomnav {
@@ -285,12 +287,12 @@ flex: 1 1 0;
   font-weight: 700;
   }
 
-
   /*#Resume styling*/
 #Resume {
   background-color: #1a75ff;
   width: 4em;
   height: 5em;
+  margin-left: 0.9375em;
     }
 
 #resume-header {
@@ -298,14 +300,13 @@ flex: 1 1 0;
   font-weight: 700;
   text-decoration: underline;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  margin-right:0.625em;
+  margin-right: 0.625em;
+  margin-bottom: 0.625em;
   }
 
   span {
     font-size: 1.5625em;
     color: #000000;
-    padding-top: 0.625em;
-    
   }
 
   
