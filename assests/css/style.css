@@ -94,7 +94,29 @@ header nav ul li a:active {
 
 /*header and nav styles end*/
 
-/*#children styling*/
+/*#About-Me <p> styling*/
+#About-Me p {
+  font-size: 1.125em;
+  font-weight: 600;
+  color: #e60000; 
+  position: relative;
+   }
+ 
+ /*.handsome is profile photo styling in About-Me section*/
+ .handsome {
+     height: 15em;
+     position: relative;
+     bottom: -0.625em;
+     right: -0.625em;
+     margin: 1.25em 1.875em 0.625em 1.25em;
+     padding-top: 0.3125em;
+   }
+ 
+   #bio {
+     background-color: #1a75ff;
+   }
+
+/*#cards styling*/
 
 #cards {
   background-color:#00cccc;
@@ -124,27 +146,7 @@ header nav ul li a:active {
   width: 80%;
 }
 
-/*#About-Me <p> styling*/
-#About-Me p {
- font-size: 1.125em;
- font-weight: 600;
- color: #e60000; 
- position: relative;
-  }
-
-/*.handsome is profile photo styling in About-Me section*/
-.handsome {
-    height: 15em;
-    position: relative;
-    bottom: -0.625em;
-    right: -0.625em;
-    margin: 1.25em 1.875em 0.625em 1.25em;
-    padding-top: 0.3125em;
-  }
-
-  #bio {
-    background-color: #1a75ff;
-  }
+/*#cards styling ends */
 
 /*#Contact-Me styling*/
 #Contact-Me  {
