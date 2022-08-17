@@ -121,7 +121,7 @@ header nav ul li a:active {
 #cards {
   background-color:#00cccc;
   margin: 0.625em 0.625em 0.625em 0.3125em;
-  width: 80%;
+  width: 50%;
   display: flex;
   position: relative;
   flex-wrap: nowrap;
@@ -143,7 +143,6 @@ header nav ul li a:active {
   margin: 0.625em;
   position: relative;
   cursor: pointer;
-  width: 80%;
 }
 
 /*#cards styling ends */
