@@ -113,7 +113,7 @@ header nav ul li a:active {
   text-shadow: 0 0 0.625em rgba(0, 0, 0, 0.5);
 }
 
-/*Styling for image in #children*/
+/*Styling for the images in all cards*/
 .screenshot {
   display: inline-flex;
   flex-wrap: nowrap;
@@ -123,43 +123,6 @@ header nav ul li a:active {
   position: relative;
   cursor: pointer;
   width: 80%;
-}
-
-/*Styling for image in #buddy*/
-.run {
-  display: inline-flex;
-  flex-wrap: nowrap;
-  object-fit: contain;
-  height: 12.5em;
-  margin: 0.625em;
-  position: relative;
-  cursor: pointer;
-  width: 80%;
-}
-
-/*Styling for image in #placeholdertwo*/
-.box {
-  display: inline-flex;
-  flex-wrap: nowrap;
-  object-fit: contain;
-  height: 12.5em;
-  margin: 1.25em;
-  position: relative;
-  cursor: pointer;
-  width: 80%;
-}
-
-/*Styling for image in Movie Nerds*/
-.project1 {
-  display: inline-flex;
-  flex-wrap: nowrap;
-  object-fit: contain;
-  height: 11.25em;
-  margin: 1.125em 0.9375em 1.125em 1.125em;
-  position: relative;
-  right: -0.625em;
-  cursor: pointer;
-  width: 75%;
 }
 
 /*#About-Me <p> styling*/
