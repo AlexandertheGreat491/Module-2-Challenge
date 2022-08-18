@@ -68,7 +68,12 @@ header nav ul li a:active {
 
 /*header and nav styles end*/
 
-/*#About-Me <p> styling*/
+/*#About-Me styling*/
+
+#About-Me {
+  margin-top: 0.125em;
+}
+
 #About-Me p {
   font-size: 1em;
   font-weight: 600;
