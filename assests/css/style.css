@@ -159,6 +159,7 @@ header nav ul li a:active {
   padding-top: 1.375em;
   font-size: 1.125em;
   font-weight: 700;
+  text-decoration: underline;
 }
 
 /*#Resume styling*/
@@ -168,9 +169,11 @@ header nav ul li a:active {
   font-size: 1.125em;
   font-weight: 700;
   margin-right: 0.625em;
+  text-decoration: underline;
 }
 
 span {
+  padding-top: 1.375em;
   font-size: 1.125em;
   color: #000000;
 }
