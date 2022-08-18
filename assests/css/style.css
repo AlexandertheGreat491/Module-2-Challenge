@@ -171,10 +171,7 @@ header nav ul li a:active {
 #resume-header {
   font-size: 1.875em;
   font-weight: 700;
-  text-decoration: underline;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   margin-right: 0.625em;
-  margin-bottom: 0.625em;
 }
 
 span {
