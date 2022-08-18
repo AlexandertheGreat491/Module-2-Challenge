@@ -150,25 +150,27 @@ header nav ul li a:active {
 
 #bottomnav {
   font-weight: 700;
-  font-size: 1.25em;
+  font-size: 1em;
   color: #006600;
   text-decoration: underline;
 }
 
 #Contact-Me h1 {
-  font-size: 1.875em;
+  padding-top: 1.375em;
+  font-size: 1.125em;
   font-weight: 700;
 }
 
 /*#Resume styling*/
 
+
 #resume-header {
-  font-size: 1.875em;
+  font-size: 1.125em;
   font-weight: 700;
   margin-right: 0.625em;
 }
 
 span {
-  font-size: 1.5625em;
+  font-size: 1.125em;
   color: #000000;
 }
