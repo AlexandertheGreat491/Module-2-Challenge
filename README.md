@@ -26,8 +26,7 @@ The project can be used through accessing the deployed URL and/or through access
 
 [public repository URL](https://github.com/AlexandertheGreat491/Portfolio)
 
-![updated deployed portfolio screenshot](https://user-images.githubusercontent.com/64184203/173621962-1af1bfd3-efa0-4a9f-a37d-4cbae303907a.jpg)
-
+![portfolio_screenshot](https://user-images.githubusercontent.com/64184203/185471396-abf096dd-4291-4e45-97a6-30825c7898f1.jpg)
 
 ## Credits
 
