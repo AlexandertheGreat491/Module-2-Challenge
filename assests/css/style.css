@@ -24,7 +24,7 @@ header {
   background-position: 80%;
   position: -webkit-sticky;
   position: relative;
-  top:0;
+  top: 0;
   padding: 1.25em 2.1875em;
   height: 25em;
   border: 0.625em groove #ffe6cc;
@@ -34,7 +34,7 @@ header {
 
 /*header h1 styling*/
 header h1 {
-  color: #4d94ff; 
+  color: #4d94ff;
   font-weight: bold;
   font-size: 3em;
   text-shadow: 0 0 0.625em rgba(0, 0, 0, 0.5);
@@ -70,30 +70,42 @@ header nav ul li a:active {
 
 /*#About-Me <p> styling*/
 #About-Me p {
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: 600;
-  color: #e60000; 
+  color: #e60000;
   position: relative;
-   }
- 
- /*.handsome is profile photo styling in About-Me section*/
- .handsome {
-     height: 15em;
-     position: relative;
-     bottom: -0.625em;
-     right: -0.625em;
-     margin: 1.25em 1.875em 0.625em 1.25em;
-     padding-top: 0.3125em;
-   }
- 
-   #bio {
-     background-color: #1a75ff;
-   }
+}
+
+#About-Me h1 {
+  font-size: 1.875em;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/*.handsome is profile photo styling in About-Me section*/
+.handsome {
+  height: 15em;
+  position: relative;
+  bottom: -0.625em;
+  right: -0.625em;
+  margin: 1.25em 1.875em 0.625em 1.25em;
+  padding-top: 0.3125em;
+}
+
+#bio {
+  background-color: #1a75ff;
+}
+
+#Work h1 {
+  font-size: 1.875em;
+  font-weight: 700;
+  text-decoration: underline;
+}
 
 /*#cards styling*/
 
 #cards {
-  background-color:#00cccc;
+  background-color: #00cccc;
   margin: 0.625em 0.625em 0.625em 0.3125em;
   width: 50%;
   display: flex;
@@ -122,34 +134,34 @@ header nav ul li a:active {
 /*#cards styling ends */
 
 /*#Contact-Me styling*/
-#Contact-Me  {
- background-color: #1a75ff;
- width: 1em;
- height: 5em;
- margin-left: 0.9375em;
- margin-bottom: 0.3125em;
-  }
+#Contact-Me {
+  background-color: #1a75ff;
+  width: 1em;
+  height: 5em;
+  margin-left: 0.9375em;
+  margin-bottom: 0.3125em;
+}
 
 #bottomnav {
   order: 3;
   font-weight: 700;
   font-size: 1.25em;
-  color: #006600; 
+  color: #006600;
   text-decoration: underline;
 }
 
 #Contact-Me h1 {
   font-size: 1.875em;
   font-weight: 700;
-  }
+}
 
-  /*#Resume styling*/
+/*#Resume styling*/
 #Resume {
   background-color: #1a75ff;
   width: 4em;
   height: 5em;
   margin-left: 0.9375em;
-    }
+}
 
 #resume-header {
   font-size: 1.875em;
@@ -158,12 +170,9 @@ header nav ul li a:active {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   margin-right: 0.625em;
   margin-bottom: 0.625em;
-  }
+}
 
-  span {
-    font-size: 1.5625em;
-    color: #000000;
-  }
-
-  
-
+span {
+  font-size: 1.5625em;
+  color: #000000;
+}
