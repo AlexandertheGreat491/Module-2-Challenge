@@ -40,7 +40,7 @@ Sources:
 
 [Codepen](https://codepen.io/dcode-software/pen/abqRRqq)
 
-[Giphy]("https://giphy.com/gifs/giffffr-2XflxzDAw5pn6WaA372")
+[Giphy](https://giphy.com/gifs/giffffr-2XflxzDAw5pn6WaA372)
 
 [Learn how to Bootstrap icon styles in html and css. (n.d.). W3schools.io. Retrieved May 31, 2022](https://www.w3schools.io/icons/bootstrap-icons-styles/)
 
